@@ -6,7 +6,12 @@
 <meta name="theme-color" content="#0a0a0f">
 <meta name="apple-mobile-web-app-capable" content="yes">
 <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+<meta name="apple-mobile-web-app-title" content="MKT Trend">
+<meta name="application-name" content="MKT Trend">
 <title>Marketing Trend</title>
+<link rel="manifest" href="/manifest.json">
+<link rel="apple-touch-icon" href="/icon-192.png">
+<link rel="icon" type="image/png" sizes="192x192" href="/icon-192.png">
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Pretendard:wght@300;400;500;600;700;800;900&display=swap" rel="stylesheet">
 <style>
@@ -594,6 +599,14 @@ function renderQuarterly() {
           <div class="theme-kws">${t.keywords.map(k=>`<span class="theme-kw">${k}</span>`).join('')}</div>
         </div>`).join('')}
     </div>`;
+}
+
+// ── SERVICE WORKER 등록 ──
+if ('serviceWorker' in navigator) {
+  window.addEventListener('load', () => {
+    navigator.serviceWorker.register('/sw.js')
+      .catch(e => console.log('SW 등록 실패:', e));
+  });
 }
 
 // ── START ──
