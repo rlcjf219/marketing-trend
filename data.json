@@ -1,67 +1,217 @@
 {
   "trends": [
     {
-      "monthKey": "2026-04",
-      "monthLabel": "2026년 4월",
-      "collectedAt": "2026.04.22",
+      "monthKey": "2026-04-1",
+      "monthLabel": "2026년 4월 1차",
+      "dateRange": "04.01 ~ 04.15",
+      "collectedAt": "2026.04.15",
       "items": [
         {
-          "id": "tr-2604-001", "category": "digital", "region": "KR",
-          "headline": "메타, 광고주 대상 'AI 샌드박스' 정식 출시 — 크리에이티브 자동화 본격화",
-          "summary": "메타가 2026년 4월 광고주용 AI 샌드박스를 정식 오픈했다. 텍스트 입력만으로 이미지·영상 광고 소재를 자동 생성하고 A/B 테스트까지 자동화한다. 중소 광고주의 진입 장벽이 대폭 낮아질 전망이다.",
-          "tip": "소재 제작 시간을 AI에 맡기고, 마케터는 타겟 설정과 메시지 전략에 집중하는 역할 분담이 필요하다. 브랜드 가이드라인을 AI에 사전 학습시키는 작업이 선행돼야 한다.",
-          "publishedAt": "2026.04.08", "source": "Meta for Business", "url": "https://www.facebook.com/business/news"
+          "id": "tr-260401-d-kr-1",
+          "category": "digital",
+          "region": "KR",
+          "headline": "잘 나가던 콘텐츠의 검색 순위가 하락하는 이유 — AI 검색 시대의 콘텐츠 성과 급락",
+          "summary": "2026년 4월 1일 게시된 분석에 따르면 기존에 높은 순위를 유지하던 콘텐츠들이 갑자기 검색 순위에서 급락하는 현상이 확산되고 있다. Google AI Overview, 네이버 Cue: 등 AI 검색이 전통 검색 결과를 대체하면서 기존 SEO 전략이 더 이상 통하지 않게 됐다.",
+          "tip": "검색 순위 하락은 콘텐츠 품질 문제가 아닐 수 있다. AI 검색 엔진이 인용하는 출처 유형을 분석하고 구조화 데이터와 권위 신호를 강화하는 GEO 전략으로 전환할 시점이다.",
+          "publishedAt": "2026.04.01",
+          "source": "tbwakorea SEO 블로그",
+          "url": "https://seo.tbwakorea.com/blog/all-about-digital-marketing/"
         },
         {
-          "id": "tr-2604-002", "category": "sports", "region": "KR",
-          "headline": "KBO 리그 관중 400만 돌파 — 스포츠 마케팅 플랫폼으로 진화 중",
-          "summary": "2026 KBO 리그가 개막 한 달 만에 누적 관중 400만 명을 돌파했다. 구단별 SNS 팬 참여 이벤트, 굿즈 한정 판매, 밀레니얼·Z세대 타겟 팝업스토어가 흥행을 이끌고 있다.",
-          "tip": "스포츠 이벤트를 단순 관람에서 참여형 콘텐츠 경험으로 설계하라. 경기 외 시간에도 SNS 챌린지, 팬 투표, 한정 굿즈 드롭을 연계하면 브랜드 노출이 극대화된다.",
-          "publishedAt": "2026.04.14", "source": "스포츠서울", "url": "https://www.sportsseoul.com"
+          "id": "tr-260401-d-gl-1",
+          "category": "digital",
+          "region": "GLOBAL",
+          "headline": "BoF: AI가 패션 쇼핑의 새로운 관문이 됐다 — 탐색에서 직접 결제까지",
+          "summary": "비즈니스 오브 패션이 2026년 AI 쇼핑의 전환점을 보고했다. ChatGPT·Gemini 등 AI 검색 엔진이 제품 발견에서 직접 결제까지 담당하는 구조로 진화했다. AI는 인간과 다른 방식으로 인터넷을 보기 때문에 브랜드는 AI 쇼핑 에이전트에 맞게 콘텐츠를 재설계해야 한다.",
+          "tip": "AI 에이전트가 제품을 추천하는 방식을 먼저 이해하라. 가격·사이즈·재질·스타일을 구조화된 데이터로 제공하고 AI가 쉽게 읽을 수 있는 API 기반 구매 연동을 준비해야 한다.",
+          "publishedAt": "2026.01.13",
+          "source": "Business of Fashion",
+          "url": "https://www.businessoffashion.com/articles/retail/how-ai-will-shape-e-commerce-in-2026/"
         },
         {
-          "id": "tr-2604-003", "category": "tech", "region": "GLOBAL",
-          "headline": "Google, 검색 결과 'AI 오버뷰' 전면 확대 — SEO 전략 대전환 시작",
-          "summary": "구글이 AI 오버뷰를 전 세계 검색 결과에 확대 적용하기 시작했다. 검색 결과 상단을 AI 요약이 차지하면서 기존 블로그·뉴스 사이트의 클릭률이 평균 15~20% 하락한 것으로 나타났다.",
-          "tip": "AI 오버뷰에 인용되는 구조화 콘텐츠(FAQ, How-to, 정의형 글쓰기)를 우선 제작하라. 클릭보다 인용 도달이 새로운 브랜드 가시성 지표다.",
-          "publishedAt": "2026.04.03", "source": "Search Engine Journal", "url": "https://www.searchenginejournal.com"
+          "id": "tr-260401-f-kr-1",
+          "category": "fashion",
+          "region": "KR",
+          "headline": "2026 디지털 마케팅 — '완벽함'을 버리고 '야생'으로, 파이지컬 전략이 핵심",
+          "summary": "AJ Marketing이 분석한 2026 디지털 마케팅 트렌드. 제로클릭 시대에 소비자는 숏폼에서 브랜드를 '발견'하고 취향에 의해 구매를 결정한다. 오프라인 매장을 디지털 콘텐츠 생산 공장으로 활용하는 '파이지컬(Phygital)' 전략이 핵심이다. 탬버린즈 성수 플래그십이 대표 사례다.",
+          "tip": "오프라인 공간을 SNS 콘텐츠 생산 기지로 설계하라. 고객이 자발적으로 인증샷을 찍고 싶어지는 압도적인 비주얼이 가장 강력한 마케팅 자산이다. '파운더 모드'로 대표가 직접 브랜드 스토리를 전달하는 것도 효과적이다.",
+          "publishedAt": "2026.02.20",
+          "source": "AJ Marketing",
+          "url": "https://www.ajmarketing.io/ko/feed/%EB%94%94%EC%A7%80%ED%84%B8-%EB%A7%88%EC%BC%80%ED%8C%85-%ED%8A%B8%EB%A0%8C%EB%93%9C-%EC%A0%84%EB%9E%B5"
         },
         {
-          "id": "tr-2604-004", "category": "fashion", "region": "KR",
-          "headline": "무신사, '뷰티' 카테고리 공식 론칭 — 패션 플랫폼의 뷰티 전쟁 본격화",
-          "summary": "무신사가 2026년 4월 공식 뷰티 전문관을 론칭하며 올리브영·에이블리와의 경쟁에 참전했다. 패션과 뷰티를 연계한 룩 완성 큐레이션 전략을 앞세우고 있다.",
-          "tip": "패션·뷰티 크로스셀링 기회를 잡아라. 이 옷에 어울리는 메이크업 형태의 콘텐츠 연계 마케팅이 양쪽 카테고리 구매 전환율을 모두 높인다.",
-          "publishedAt": "2026.04.10", "source": "패션포스트", "url": "https://www.fashionpost.co.kr"
+          "id": "tr-260401-f-gl-1",
+          "category": "fashion",
+          "region": "GLOBAL",
+          "headline": "BoF: 2026 패션 마케터의 전환 — 느린 광고·신중한 크리에이티브·인간적 연결로",
+          "summary": "비즈니스 오브 패션이 2026년 패션 마케팅의 변화를 보도했다. 2025년 실험과 노이즈의 해를 거쳐 2026년은 느린 광고, 더 신중한 크리에이티브 리스크, 인간적 연결로의 전환점이 됐다. 끝없는 콜라보와 셀럽 협업이 럭셔리 브랜드를 과노출·진부하게 만든 반성에서 비롯됐다.",
+          "tip": "셀럽 협업의 양보다 질을 따져라. 브랜드 정체성과 자연스럽게 맞아떨어지는 진정성 있는 파트너십이 과도한 콜라보보다 훨씬 강력한 브랜드 자산이 된다.",
+          "publishedAt": "2026.01.12",
+          "source": "Business of Fashion",
+          "url": "https://www.businessoffashion.com/articles/marketing-pr/how-fashion-marketers-will-nab-attention-2026/"
         },
         {
-          "id": "tr-2604-005", "category": "fnb", "region": "KR",
-          "headline": "편의점 PB 프리미엄화 가속 — GS25·CU, 고급 간편식 라인 확장",
-          "summary": "GS25와 CU가 나란히 프리미엄 PB 간편식 라인을 확장했다. 1인 가구 증가와 외식 물가 상승으로 집에서 먹는 고급 식사 수요가 급증하면서 편의점이 프리미엄 F&B 채널로 재포지셔닝 중이다.",
-          "tip": "편의점 채널을 단순 유통망이 아닌 브랜드 경험 테스트베드로 활용하라. PB 협업 또는 팝업 입점 방식으로 소비자 반응을 빠르게 테스트할 수 있다.",
-          "publishedAt": "2026.04.17", "source": "유통경제신문", "url": "https://www.ydmnews.co.kr"
+          "id": "tr-260401-fnb-kr-1",
+          "category": "fnb",
+          "region": "KR",
+          "headline": "오픈서베이 2026 건강기능식품 트렌드 — 채널 전쟁 본격화, 맞춤형 웰니스 시대",
+          "summary": "건강기능식품이 일상 쇼핑 품목으로 완전히 편입됐다. 다이소(기본 영양제)·올리브영 올리브베러(뷰티 연계 고기능)·쿠팡(정기구독) 등 채널별 소비 목적이 명확히 분화됐다. 누가 왜 먹느냐에 따라 선택 기준이 세분화되는 맞춤형 웰니스 시대가 열렸다.",
+          "tip": "동일 제품도 채널에 따라 메시지와 포지셔닝을 달리해야 한다. 다이소 입점 제품은 가성비, 올리브영은 뷰티 연계 효능, 쿠팡은 정기구독 혜택을 각각 전면에 내세우는 채널 맞춤 전략이 핵심이다.",
+          "publishedAt": "2026.04.19",
+          "source": "오픈서베이",
+          "url": "https://blog.opensurvey.co.kr/trendreport/health-supplement-2026/"
         },
         {
-          "id": "tr-2604-006", "category": "media", "region": "GLOBAL",
-          "headline": "틱톡 'Series' 유료 콘텐츠 기능 글로벌 확대 — 크리에이터 수익 모델 다변화",
-          "summary": "틱톡이 크리에이터가 유료 시리즈 콘텐츠를 판매할 수 있는 Series 기능을 전 세계로 확대했다. 광고 수익 외 직접 유료화 채널이 생기면서 콘텐츠 퀄리티 경쟁이 심화될 전망이다.",
-          "tip": "유료 Series 크리에이터와의 협업이 새로운 프리미엄 마케팅 채널이 된다. 단순 광고 협찬보다 Series 콘텐츠 스폰서십이 더 높은 몰입도를 제공한다.",
-          "publishedAt": "2026.04.05", "source": "TechCrunch", "url": "https://techcrunch.com"
+          "id": "tr-260401-fnb-gl-1",
+          "category": "fnb",
+          "region": "GLOBAL",
+          "headline": "NielsenIQ 2026 리테일 뷰티 5대 트렌드 — 매출의 53%가 온라인, K뷰티 글로벌 지배",
+          "summary": "NielsenIQ 뷰티 담당 MD가 발표한 2026 리테일 뷰티 5대 트렌드. 52주 데이터 기준 뷰티 매출의 53%가 온라인에서 발생하며 전년 대비 18% 이상 성장했다. TikTok Shop과 Amazon이 온라인 뷰티 성장을 주도하고 있으며 K뷰티 브랜드들이 미국 시장을 석권하고 있다.",
+          "tip": "K뷰티 브랜드는 TikTok Shop과 Amazon에서 1st party 스토어프론트를 강화하라. 3rd party 판매보다 자체 브랜드 스토어에서 판매하는 제품이 플랫폼 알고리즘 우위를 점한다.",
+          "publishedAt": "2025.11.21",
+          "source": "WWD / NielsenIQ",
+          "url": "https://wwd.com/business-news/business-features/top-five-2026-retail-beauty-trends-1238346654/"
         },
         {
-          "id": "tr-2604-007", "category": "health", "region": "KR",
-          "headline": "국내 수면케어 시장 1조 원 돌파 — 웰니스 마케팅의 핵심 키워드로 부상",
-          "summary": "2026년 국내 수면케어 시장이 처음으로 연간 1조 원을 넘어설 전망이다. 수면 보조제, 스마트 베개, 수면 앱, 아로마 테라피까지 카테고리가 급속히 확장되고 있다.",
-          "tip": "수면케어를 단일 제품 마케팅이 아닌 수면 루틴 생태계로 접근하라. 수면 전 루틴을 연계한 번들 마케팅이 효과적이다.",
-          "publishedAt": "2026.04.19", "source": "헬스조선", "url": "https://health.chosun.com"
+          "id": "tr-260401-t-kr-1",
+          "category": "tech",
+          "region": "KR",
+          "headline": "2026 디지털 마케팅 새 기준 7 — AEO·숏폼 커머스·리테일 미디어·AI 운영체계",
+          "summary": "BAT가 분석한 2026 디지털 마케팅 7대 변화. 키워드 SEO가 AI 답변형 검색 최적화(AEO)로 대체되고, 숏폼이 '미니 세일즈 퍼널'이 됐다. 리테일 미디어 네트워크가 광고 채널에서 유통 인프라로 진화하고, AI가 도구에서 마케팅 운영체계로 전환됐다.",
+          "tip": "숏폼을 브랜딩용 콘텐츠가 아닌 구매 퍼널로 설계하라. 3초 훅→USP 제시→사용 장면→구매 유도의 미니 세일즈 퍼널 구조로 만들고, 성과 좋은 숏폼을 광고·상세페이지로 재활용하는 전략이 효과적이다.",
+          "publishedAt": "2026.03.06",
+          "source": "BAT Crew",
+          "url": "https://batcrew.co.kr/ko/blog-insight-2026-marketing-checklist/"
         },
         {
-          "id": "tr-2604-008", "category": "b2b", "region": "GLOBAL",
-          "headline": "LinkedIn, B2B 마케팅 'Thought Leader Ads' 정식 출시",
-          "summary": "링크드인이 임직원 개인 계정의 콘텐츠를 기업 광고로 활용할 수 있는 Thought Leader Ads를 정식 출시했다. 기업 광고 대비 3배 높은 클릭률을 기록하고 있다.",
-          "tip": "대표·임원의 개인 링크드인 콘텐츠를 전략적으로 운영하라. 기업 계정보다 사람의 얼굴이 보이는 콘텐츠가 B2B 신뢰 마케팅에서 압도적으로 유리하다.",
-          "publishedAt": "2026.04.02", "source": "LinkedIn Marketing Blog", "url": "https://business.linkedin.com"
+          "id": "tr-260401-t-gl-1",
+          "category": "tech",
+          "region": "GLOBAL",
+          "headline": "BoF: AI가 패션·뷰티 고객 경험을 바꾼다 — 워크플로우 효율화와 인간 창의성의 공존",
+          "summary": "비즈니스 오브 패션이 보도한 패션·뷰티의 AI 고객 경험 전환. 마케터들이 AI 실험에서 AI를 일상 운영 구조로 통합하는 단계로 이동하고 있다. 핵심은 브랜드 정체성과 마케팅의 인간적 요소를 희생하지 않고 워크플로우를 간소화하는 것이다.",
+          "tip": "AI 도구를 도입할 때 가장 먼저 점검해야 할 것은 브랜드 목소리(Brand Voice)다. AI가 생성한 콘텐츠가 브랜드 정체성과 맞는지 검토하는 '인간 편집자' 역할을 마케팅팀 내에 반드시 확보해야 한다.",
+          "publishedAt": "2026.04.09",
+          "source": "Business of Fashion / Braze",
+          "url": "https://www.businessoffashion.com/reports/marketing-pr/strategies-transforming-fashion-and-beauty-customer-experience-bof-braze-knowledge-report/"
+        },
+        {
+          "id": "tr-260401-fi-kr-1",
+          "category": "finance",
+          "region": "KR",
+          "headline": "2026 스마트 디지털 마케팅 — 네이버 '에이전트 N'과 쿠키리스 시대의 데이터 전략",
+          "summary": "폭스씨지(FoxCG)가 분석한 2026년 국내 디지털 마케팅 핵심 전략. 네이버가 에이전트 N을 통해 검색부터 예약·결제까지 대화 하나로 끝내는 생태계를 구축 중이다. 서드파티 쿠키 완전 퇴장으로 제로파티·퍼스트파티 데이터 확보가 마케팅 ROI를 결정하게 됐다.",
+          "tip": "퍼스트파티 데이터 수집을 위한 '데이터 교환 가치(Value Exchange)'를 설계하라. 독점 콘텐츠, 개인화 큐레이션, 계산기·진단 도구를 통해 소비자가 자발적으로 정보를 제공하게 만드는 넛지 전략이 효과적이다.",
+          "publishedAt": "2026.03.11",
+          "source": "FoxCG",
+          "url": "https://foxcg.com/smart-digital-marketing-trends"
+        },
+        {
+          "id": "tr-260401-fi-gl-1",
+          "category": "finance",
+          "region": "GLOBAL",
+          "headline": "2026 B2B 12대 메가 트렌드 — AI 에이전트·산업별 클라우드·사이버보안이 핵심",
+          "summary": "스타트어스 인사이트 분석을 요즘IT가 정리한 2026 B2B 12대 트렌드. 세일즈포스가 금융·헬스케어 등 산업별로 맞춤화된 AI 에이전트가 내장된 클라우드를 출시했다. 맥킨지는 2030년까지 클라우드 가치가 3조 달러에 달할 것으로 전망했다.",
+          "tip": "B2B 기술 투자를 범용 솔루션에서 산업 특화 솔루션으로 전환하라. 일반 CRM보다 자신의 업종에 특화된 AI 에이전트와 데이터 모델이 도입 효과와 ROI가 훨씬 높다.",
+          "publishedAt": "2026.02.03",
+          "source": "요즘IT / StartUs Insights",
+          "url": "https://yozm.wishket.com/magazine/detail/3451/"
+        },
+        {
+          "id": "tr-260401-h-kr-1",
+          "category": "health",
+          "region": "KR",
+          "headline": "2026 헬스케어 마케팅 — 에이전틱 AI·하이브리드 오프라인·투명한 ROI 3대 키워드",
+          "summary": "브랜드그로우가 정리한 2026 헬스케어 마케팅 트렌드. 에이전틱 AI가 자율적 마케팅 파트너로 진화하고, 소셜미디어 피로로 오프라인 환자 모임과 커뮤니티가 부상했다. 헬스케어 브랜드는 감성 어필에서 투명한 ROI 증명으로 전략을 전환해야 한다.",
+          "tip": "헬스케어 마케팅에서 감성 포장보다 구체적 수치를 공개하는 투명성 도구(비용 계산기, 효과 시뮬레이터)가 MZ 환자의 신뢰를 얻는 핵심 전략이다. McKinsey 연구에서 데이터 기반 메시지가 감성 메시지보다 참여율이 40% 높았다.",
+          "publishedAt": "2025.10.15",
+          "source": "브랜드그로우 / 오픈애즈",
+          "url": "https://openads.co.kr/content/contentDetail?contsId=17618"
+        },
+        {
+          "id": "tr-260401-h-gl-1",
+          "category": "health",
+          "region": "GLOBAL",
+          "headline": "WWD: 2026 뷰티·패션 마케팅 — '더 많이 보내는 것'이 아니라 '더 스마트하게 보내는 것'",
+          "summary": "WWD가 보도한 Listrak 2026 뷰티·패션 벤치마크 리포트. 130억 건의 이메일·SMS 데이터를 기반으로 AI가 전자상거래를 재편하고 있으며, 고의도 순간에 개인화된 메시지를 보내는 것이 발송량 늘리기보다 훨씬 효과적임을 밝혔다.",
+          "tip": "뷰티·패션 마케팅에서 구매 직전, 장바구니 이탈, 재방문 시점 등 하이인텐트 순간을 포착하는 자동화 전략을 구축하라. 개인화된 메시지의 전환율이 일반 메시지보다 최대 3배 높다.",
+          "publishedAt": "2026.03.09",
+          "source": "WWD / Listrak",
+          "url": "https://wwd.com/business-news/business-features/2026-fashion-beauty-trends-ai-luxury-wellness-gen-z-1238654821/"
+        },
+        {
+          "id": "tr-260401-tr-kr-1",
+          "category": "travel",
+          "region": "KR",
+          "headline": "네이버 에이전트 N이 여행 예약 생태계를 바꾼다 — 대화 하나로 검색·예약·결제 완결",
+          "summary": "네이버가 에이전트 N을 통해 검색·예약·결제를 대화 하나로 연결하는 생태계를 구축하면서 여행·숙박 업계의 예약 경로가 근본적으로 바뀌고 있다. AI 에이전트가 소비자 대신 여행 상품을 비교하고 예약까지 완료하는 구조가 현실화되고 있다.",
+          "tip": "여행·숙박 업체는 AI 에이전트가 읽을 수 있는 구조화 데이터를 지금 정비해야 한다. 가격·객실 유형·포함 서비스·위치 정보를 API로 제공하는 것이 AI 예약 생태계에서 선택받는 첫 번째 조건이다.",
+          "publishedAt": "2026.03.11",
+          "source": "FoxCG",
+          "url": "https://foxcg.com/smart-digital-marketing-trends"
+        },
+        {
+          "id": "tr-260401-tr-gl-1",
+          "category": "travel",
+          "region": "GLOBAL",
+          "headline": "Noble Studios: 2026 여행 마케팅 — AI 트래픽 변화 속 DMO의 인간적 스토리텔링이 경쟁력",
+          "summary": "노블 스튜디오가 여행 마케팅 전문가들의 현장 목소리를 종합한 2026 전망. AI가 빠르게 움직이면서 기존 트래픽 패턴과 의도 신호가 덜 유효해지고 있다. DMO는 AI가 제공하지 못하는 진정한 인간적 관점과 지역 스토리텔링을 통해 여행자의 신뢰를 획득해야 한다.",
+          "tip": "여행 마케팅에서 AI 생성 콘텐츠와 차별화되는 '인간만이 쓸 수 있는 스토리'를 확보하라. 현지 주민의 목소리, 예상치 못한 로컬 경험, 실제 방문자의 진정성 있는 후기가 AI 검색 시대의 핵심 콘텐츠 자산이다.",
+          "publishedAt": "2025.12.18",
+          "source": "Noble Studios",
+          "url": "https://noblestudios.com/travel-tourism/travel-tourism-marketing-trends-2026/"
+        },
+        {
+          "id": "tr-260401-m-kr-1",
+          "category": "media",
+          "region": "KR",
+          "headline": "2026 마케팅 체크리스트 — 콘텐츠를 운영 구조로 만드는 크리에이터 Co-Creation 시대",
+          "summary": "BAT가 정리한 2026 마케팅 실무 체크리스트. 크리에이터와 협찬에서 공동 제작(Co-Creation)으로 전환하고, 브랜드 자산이 된 콘텐츠를 옴니채널로 재활용하는 구조를 만드는 것이 핵심이다. 콘텐츠→데이터→전환→재활용→자동화의 순환 운영 구조를 설계해야 한다.",
+          "tip": "콘텐츠를 일회성 캠페인이 아닌 누적되는 자산으로 관리하라. 성과 좋은 숏폼을 광고 소재로, 광고 소재를 상세페이지 영상으로, 상세페이지 영상을 SNS 피드로 재활용하는 콘텐츠 자산화 구조가 2026년 마케팅 비용 효율의 핵심이다.",
+          "publishedAt": "2026.03.06",
+          "source": "BAT Crew",
+          "url": "https://batcrew.co.kr/ko/blog-insight-2026-marketing-checklist/"
+        },
+        {
+          "id": "tr-260401-m-gl-1",
+          "category": "media",
+          "region": "GLOBAL",
+          "headline": "Michael Kors, CMO 신임 선임 — 브랜드·콘텐츠·소비자 데이터 분석 통합 조직 출범",
+          "summary": "카프리 홀딩스가 2026년 4월 6일자로 마이클 코어스에 코리 모란을 CMO로 선임했다. 브랜드 커뮤니케이션, 콘텐츠 제작, 소비자 데이터 분석을 통합하는 조직을 이끌며 고객 획득 매출을 높이는 것이 핵심 임무다. 브랜드 마케팅과 퍼포먼스 마케팅 통합이 럭셔리에서도 표준이 되고 있다.",
+          "tip": "브랜드 마케팅과 퍼포먼스 마케팅의 사일로를 허물어라. 브랜드 스토리텔링과 데이터 기반 고객 획득을 하나의 통합 조직에서 운영하는 방향이 2026년 글로벌 마케팅 조직의 표준 모델이 되고 있다.",
+          "publishedAt": "2026.04.06",
+          "source": "Business Wire / Capri Holdings",
+          "url": "https://www.businesswire.com/newsroom/industry/retail/fashion"
+        },
+        {
+          "id": "tr-260401-b-kr-1",
+          "category": "b2b",
+          "region": "KR",
+          "headline": "2026 B2B 마케팅 통계 & 벤치마크 — AI 도입률 96%, LinkedIn이 전환율 1위 채널",
+          "summary": "Thunderbit가 정리한 2026 B2B 마케팅 통계. 마케터의 96%가 AI를 활용하고 있으나 리소스 제약과 성과 측정이 가장 큰 걸림돌이다. LinkedIn은 B2B 리드 생성에서 전환율이 가장 높은 채널로 자리를 굳혔으며 콘텐츠 마케팅이 여전히 B2B 신뢰 구축의 핵심 수단이다.",
+          "tip": "B2B에서 LinkedIn 기반 사고 리더십(Thought Leadership) 콘텐츠가 가장 높은 신뢰 구축 효과를 보인다. 임원·전문가의 개인 계정을 활성화해 회사 계정과 병행하는 투트랙 전략이 2026년 B2B 마케팅의 기본 공식이다.",
+          "publishedAt": "2026.03.19",
+          "source": "Thunderbit",
+          "url": "https://thunderbit.com/ko/blog/b2b-marketing-statistics"
+        },
+        {
+          "id": "tr-260401-b-gl-1",
+          "category": "b2b",
+          "region": "GLOBAL",
+          "headline": "AI B2B 트렌드 2026 — 명확한 전략 없는 마케팅은 AI 시대에 볼륨이 늘수록 더 해롭다",
+          "summary": "Trivera가 2024년부터 2026년까지 AI 마케팅 트렌드 변화를 분석했다. 명확한 전략이 있는 기업은 AI로 더 빠르게 움직이고, 없는 기업은 더 많은 콘텐츠를 생산하면서 오히려 영향력이 줄어들고 있다. 바이어가 AI로 먼저 검색하면서 브랜드의 AI 권위(AI Authority) 구축이 필수가 됐다.",
+          "tip": "B2B 마케팅에서 AI 도구를 채택하기 전에 브랜드의 관점(Point of View)을 먼저 명확히 하라. AI가 생성한 콘텐츠의 홍수 속에서 명확한 전문성과 일관된 목소리를 가진 브랜드만이 AI 검색에서 인용된다.",
+          "publishedAt": "2026.04.21",
+          "source": "Trivera",
+          "url": "https://www.trivera.com/blog/ai-trends-in-b2b-marketing-for-2026/"
         }
       ]
+    },
+    {
+      "monthKey": "2026-04-2",
+      "monthLabel": "2026년 4월 2차",
+      "dateRange": "04.16 ~ 04.30",
+      "collectedAt": "",
+      "items": []
     }
   ],
   "archive": [
@@ -71,52 +221,436 @@
       "collectedAt": "2026.04.22",
       "items": [
         {
-          "id": "ar-2604-001", "category": "digital", "region": "GLOBAL",
-          "headline": "콘텐츠 마케팅의 황금률: 70-20-10 법칙의 재해석",
-          "summary": "HubSpot의 장기 연구에 따르면 성과가 높은 마케팅 팀은 콘텐츠 예산의 70%를 검증된 포맷, 20%를 실험적 콘텐츠, 10%를 혁신적 시도에 배분한다. 숏폼 시대에도 이 법칙의 유효성이 재확인됐다.",
-          "tip": "콘텐츠 예산 배분 구조를 재점검하라. 실험 예산 없이 검증된 것만 반복하면 성장이 정체된다. 분기마다 예산의 10%는 반드시 새로운 포맷 실험에 할당하라.",
-          "publishedAt": "2025.11.14", "source": "HubSpot Research", "url": "https://blog.hubspot.com/marketing",
-          "pickReason": "숏폼 전략 수립 시 예산 배분 기준으로 현재도 유효한 프레임워크"
+          "id": "ar-2604-d-kr-1",
+          "category": "digital",
+          "region": "KR",
+          "headline": "인크로스 '2026 디지털 마케팅 트렌드' — CAPEX 시대, GEO가 핵심 전략",
+          "summary": "인크로스가 2026년 핵심 키워드로 CAPEX(Content & AI Powered Experience)를 제시했다. AI 프로듀싱, GEO(생성형 엔진 최적화), 피코크 전략(광고 규격 확장), 크리에이터 채널 단위 세밀 접근이 5대 핵심 트렌드다.",
+          "tip": "GEO 전략은 지금 시작해야 한다. AI 검색에 인용되는 구조화 콘텐츠 작성, 전문성 시그널 강화, 신뢰할 수 있는 출처 포지셔닝이 2026년 디지털 마케팅의 핵심 역량이다.",
+          "publishedAt": "2025.12.02",
+          "source": "인크로스 / 디지털인사이트",
+          "url": "https://ditoday.com/%EC%9D%B8%ED%81%AC%EB%A1%9C%EC%8A%A4-2026-%EB%94%94%EC%A7%80%ED%84%B8-%EB%A7%88%EC%BC%80%ED%8C%85-%ED%8A%B8%EB%A0%8C%EB%93%9C-%EB%A6%AC%ED%8F%AC%ED%8A%B8-%EB%B0%9C%ED%91%9C/",
+          "pickReason": "국내 주요 디지털 광고 전문 기업의 연간 전망 보고서로 실무 마케터의 전략 수립에 직접 활용 가능"
         },
         {
-          "id": "ar-2604-002", "category": "sports", "region": "KR",
-          "headline": "프로스포츠 팬 경험 디자인: 경기장 밖에서도 팬이 되게 하는 법",
-          "summary": "한국스포츠정책과학원 연구에 따르면 국내 프로스포츠 팬의 재방문 의향은 경기 결과보다 경험의 질에 더 큰 영향을 받는다. 경기장 내 F&B, 굿즈, 포토존 등 비경기 요소가 팬 충성도를 좌우한다.",
-          "tip": "스포츠 마케팅 기획 시 경기 외 체류 시간을 콘텐츠로 채워라. 입장부터 퇴장까지의 전체 팬 여정을 설계하는 CX 관점이 필요하다.",
-          "publishedAt": "2025.09.22", "source": "한국스포츠정책과학원", "url": "https://www.kspo.or.kr",
-          "pickReason": "프로스포츠 팬 경험 설계의 기초 연구로 매거진 칼럼 인용 가치 높음"
+          "id": "ar-2604-d-kr-2",
+          "category": "digital",
+          "region": "KR",
+          "headline": "나스미디어 '2026 디지털 미디어 & 마케팅 전망' — 인앱 전략·AI 에이전트·파트너십 광고",
+          "summary": "나스미디어가 2026 핵심 트렌드로 인앱 전략 & 경험 루프, AI 에이전트 상용화, 참여형 스트리밍 확대, 파트너십 광고의 부상을 제시했다. 메타·구글이 크리에이터 매칭 솔루션을 내재화하며 파트너십 광고의 쇼퍼블(Shoppable) 기능이 확대된다.",
+          "tip": "크리에이터의 콘텐츠를 공식 광고 소재로 활용하는 파트너십 광고를 적극 검토하라. 일반 브랜드 캠페인 대비 높은 신뢰도와 전환율을 보인다.",
+          "publishedAt": "2025.12.11",
+          "source": "나스미디어",
+          "url": "https://www.nasmedia.co.kr/%EC%A0%95%EA%B8%B0%EB%B3%B4%EA%B3%A0%EC%84%9C/2025%EB%85%84-12%EC%9B%94-2026-%EB%94%94%EC%A7%80%ED%84%B8-%EB%AF%B8%EB%94%94%EC%96%B4-%EB%A7%88%EC%BC%80%ED%8C%85-%EC%A0%84%EB%A7%9D/",
+          "pickReason": "국내 대표 미디어렙의 연간 전망 보고서로 채널 전략 및 예산 배분 계획 수립의 필수 참고 자료"
         },
         {
-          "id": "ar-2604-003", "category": "tech", "region": "GLOBAL",
-          "headline": "AI 마케팅 도입 기업 vs 미도입 기업: 18개월 성과 비교 연구",
-          "summary": "Salesforce가 발표한 18개월 종단 연구에서 AI 마케팅 도구 도입 기업은 미도입 기업 대비 리드 전환율 28% 상승, 캠페인 비용 22% 절감을 기록했다. 단 AI 도입 초기 6개월은 학습 곡선 구간이 존재했다.",
-          "tip": "AI 마케팅 도구 도입 후 즉각적인 성과를 기대하지 마라. 초기 6개월은 데이터 수집과 모델 학습 기간으로 설정하고, 성과 측정 기준점을 6개월 이후로 잡아야 한다.",
-          "publishedAt": "2025.12.03", "source": "Salesforce Research", "url": "https://www.salesforce.com/research",
-          "pickReason": "AI 마케팅 ROI 측정의 실증적 근거로 현재 논의에 직접 적용 가능"
+          "id": "ar-2604-d-gl-1",
+          "category": "digital",
+          "region": "GLOBAL",
+          "headline": "덴츠 2026 Media Trends — 알고리즘 시대의 인간적 진실 3가지: 단순함·사회성·주의력",
+          "summary": "덴츠가 2026 미디어 트렌드의 핵심으로 단순함, 사회성, 주의력 세 가지 인간적 진실을 제시했다. AI Slop과 레이지 베이트 마케팅에 대한 대중 피로가 임계점에 달해 영혼 있는 브랜드만 살아남는다고 분석했다.",
+          "tip": "알고리즘이 최적화한 콘텐츠보다 사람이 공감할 수 있는 단순하고 사회적인 메시지가 경쟁력이다. 복잡한 퍼포먼스 마케팅보다 명확한 브랜드 가치 전달이 우선이다.",
+          "publishedAt": "2025.11.20",
+          "source": "Dentsu Global",
+          "url": "https://aimkt.biz/2026%eb%85%84-%eb%a7%88%ec%bc%80%ed%8c%85-%ed%8a%b8%EB%A0%8C%EB%93%9C-%EB%B3%B4%EA%B3%A0%EC%84%9C-%ec%b4%9d%ec%a0%95%eb%a6%ac/",
+          "pickReason": "글로벌 4대 광고 그룹의 연간 미디어 트렌드 보고서로 전략적 방향 설정에 직접 활용 가능"
         },
         {
-          "id": "ar-2604-004", "category": "fashion", "region": "KR",
-          "headline": "K-패션의 글로벌 확산: 무신사 글로벌 vs 에이블리 해외 전략 분석",
-          "summary": "국내 패션 플랫폼들의 글로벌 진출 전략이 갈린다. 무신사는 일본·동남아 직진출, 에이블리는 현지 플랫폼 제휴 방식을 선택했다. 양사 모두 K-콘텐츠 열풍을 배경으로 첫 해 거래액 목표를 초과 달성했다.",
-          "tip": "K-브랜드의 해외 진출 시 직진출 vs 플랫폼 제휴 선택이 핵심이다. 인지도가 낮은 초기에는 현지 플랫폼 제휴로 트래픽을 확보하고, 인지도가 높아지면 독립 채널로 전환하는 단계적 전략이 유효하다.",
-          "publishedAt": "2025.10.18", "source": "패션포스트", "url": "https://www.fashionpost.co.kr",
-          "pickReason": "K-패션 글로벌 전략의 구체적 사례로 해외 진출 칼럼에 활용 적합"
+          "id": "ar-2604-d-gl-2",
+          "category": "digital",
+          "region": "GLOBAL",
+          "headline": "2026 마케팅의 시대 — AI가 노출했다: 명확함이 없는 마케팅은 더 많은 콘텐츠도 소용없다",
+          "summary": "CRM Magazine 2026 마케팅 분석에 따르면 AI 시대에 콘텐츠 볼륨은 급증했지만 차별화는 오히려 더 어려워졌다. 2026년에 이기는 기업은 AI 도구가 가장 많은 팀이 아니라 가장 명확한 관점과 규율 있는 데이터 활용, 인간 창의성이 주도해야 할 곳을 아는 팀이다.",
+          "tip": "AI 도구 도입 전에 브랜드의 관점과 메시지를 먼저 명확히 하라. 퍼스트파티 데이터와 로열티 프로그램에 투자하고, AI 검색에 인용될 수 있는 콘텐츠를 설계하는 것이 2026년 마케팅의 핵심이다.",
+          "publishedAt": "2026.04.01",
+          "source": "CRM Magazine / Destination CRM",
+          "url": "https://www.destinationcrm.com/Articles/Editorial/Magazine-Features/The-Top-Marketing-Trends-and-Technologies-for-2026%C2%A0Marketings-Age-of-AI-Has-Arrived-Now-Comes-the-Hard-Part-174149.aspx",
+          "pickReason": "글로벌 마케팅 전략의 현재를 가장 정확하게 진단한 2026년 필독 보고서"
         },
         {
-          "id": "ar-2604-005", "category": "media", "region": "GLOBAL",
-          "headline": "뉴스레터 마케팅의 르네상스: 오픈율 45% 달성한 브랜드의 공통점",
-          "summary": "Substack·Beehiiv 플랫폼 분석 결과, 오픈율 40% 이상을 기록한 브랜드 뉴스레터의 공통 특징은 발행자의 얼굴이 보이는 1인칭 콘텐츠, 예측 가능한 발행 주기, 구독자만을 위한 단독 정보였다.",
-          "tip": "브랜드 뉴스레터를 마케팅 채널이 아닌 편집장이 있는 미디어로 운영하라. 담당자의 개인 관점과 큐레이션 철학이 드러날수록 구독자 충성도가 높아진다.",
-          "publishedAt": "2025.08.29", "source": "Beehiiv Research", "url": "https://www.beehiiv.com",
-          "pickReason": "B2B 뉴스레터 전략 수립에 직접 적용 가능한 실증 데이터"
+          "id": "ar-2604-f-kr-1",
+          "category": "fashion",
+          "region": "KR",
+          "headline": "올리브영 2026 트렌드 키워드 'FULLMOON' — K뷰티·얼리 웰니스·수면케어 3대 축",
+          "summary": "CJ올리브영이 2026 트렌드 키워드 FULLMOON을 선정했다. 15~24세 웰니스 소비가 매년 두 자릿수 성장 중이며 수면케어 관련 건강식품 매출이 전년 대비 300% 이상 올랐다. 멜라토닌 성분이 트렌드를 이끌며 스킨케어와 영양제의 경계가 허물어지고 있다.",
+          "tip": "웰니스 카테고리와 뷰티를 연계한 크로스셀링 전략이 유효하다. 수면케어·스트레스 관리·이너뷰티를 연결하는 번들 마케팅이 구매 단가와 재구매율을 동시에 높인다.",
+          "publishedAt": "2025.12.19",
+          "source": "CJ올리브영 / 뷰티누리",
+          "url": "https://www.beautynury.com/news/view/110234/cat/10",
+          "pickReason": "국내 최대 뷰티·웰니스 플랫폼의 연간 소비 데이터 기반 트렌드로 소비자 인사이트의 신뢰도 최상급"
         },
         {
-          "id": "ar-2604-006", "category": "b2b", "region": "KR",
-          "headline": "국내 B2B 마케팅 현황 보고서 2025: 예산, 채널, ROI 실태",
-          "summary": "오픈서베이가 발표한 국내 B2B 마케팅 현황 조사에 따르면 국내 B2B 기업의 51%가 마케팅 ROI를 측정하지 못하고 있다. 가장 효과적인 채널로는 세미나·웨비나(38%), 링크드인(24%), 자사 블로그(19%) 순으로 나타났다.",
-          "tip": "B2B 마케팅 예산 편성 전 반드시 ROI 측정 체계를 먼저 구축하라. 측정할 수 없는 마케팅은 예산 삭감 1순위가 된다.",
-          "publishedAt": "2025.11.05", "source": "오픈서베이", "url": "https://opensurvey.co.kr",
-          "pickReason": "국내 B2B 마케팅 현황 파악을 위한 최신 국내 데이터"
+          "id": "ar-2604-f-kr-2",
+          "category": "fashion",
+          "region": "KR",
+          "headline": "하퍼스 바자 코리아 2026 웰니스·뷰티 키워드 8 — 뉴로웰니스·고기능 미니멀리즘·클린뷰티",
+          "summary": "집중력·기억력을 높이는 기능성 보충제와 뇌파 활용 명상 기기 등 뉴로웰니스 분야가 성장하고 있다. 화해가 선정한 2026 트렌드 '고기능성 미니멀리즘'은 복잡한 10단계 스킨케어 대신 고성능 제품 몇 가지로 효율을 극대화하는 트렌드다.",
+          "tip": "소비자가 성분·제조과정·환경 영향을 직접 검증하는 시대다. '무독성', '저자극', '클린 성분' 키워드의 검색량이 폭증하고 있으며 브랜드의 투명성이 구매 결정의 핵심 요인이 됐다.",
+          "publishedAt": "2026.01.07",
+          "source": "하퍼스 바자 코리아",
+          "url": "https://www.harpersbazaar.co.kr/article/1895118",
+          "pickReason": "국내 뷰티·웰니스 트렌드를 글로벌 시각과 함께 정리한 고품질 큐레이션 아티클"
+        },
+        {
+          "id": "ar-2604-f-gl-1",
+          "category": "fashion",
+          "region": "GLOBAL",
+          "headline": "BoF-McKinsey State of Fashion 2026 — '규칙이 바뀔 때' 전략적 갱신의 기회",
+          "summary": "맥킨지-BoF 공동 보고서에 따르면 2026년 패션 업계 최대 과제는 관세와 불확실성이며 46%의 임원이 상황 악화를 전망했다. 그러나 AI 쇼핑 에이전트, 중고 시장의 2~3배 성장, 웰니스 지출 전환이 새로운 성장 기회를 만들고 있다.",
+          "tip": "불확실성이 클수록 규칙을 재정의하는 기업이 유리하다. AI 쇼핑 에이전트에 대응한 콘텐츠 최적화와 중고·리세일 생태계 편입이 2026년 패션·리테일 브랜드의 선택이 아닌 필수다.",
+          "publishedAt": "2025.11.17",
+          "source": "McKinsey / Business of Fashion",
+          "url": "https://www.mckinsey.com/industries/retail/our-insights/state-of-fashion",
+          "pickReason": "글로벌 패션 산업 최고 권위 연간 보고서로 소비 트렌드·기술·비즈니스 모델 변화를 종합적으로 다룸"
+        },
+        {
+          "id": "ar-2604-f-gl-2",
+          "category": "fashion",
+          "region": "GLOBAL",
+          "headline": "글로벌 럭셔리 리테일 2026 — Gen Z·밀레니얼이 럭셔리 시장의 45%를 점령한다",
+          "summary": "클락스턴 컨설팅 2026 럭셔리 리테일 트렌드에 따르면 Gen Z·밀레니얼이 럭셔리 시장의 45%를 차지한다. AR 가상 피팅, AI 개인화 클라이언팅, 소셜 커머스 직접 판매가 럭셔리 브랜드의 새 표준이 됐다.",
+          "tip": "럭셔리 소비의 중심이 소유에서 경험으로 이동했다. 몰입형 디지털 경험, 독점 이벤트, 개인화된 서비스가 젊은 럭셔리 소비자와의 감정적 연결을 만드는 핵심 전략이다.",
+          "publishedAt": "2026.02.17",
+          "source": "Clarkston Consulting",
+          "url": "https://clarkstonconsulting.com/insights/2026-luxury-retail-trends/",
+          "pickReason": "럭셔리 리테일의 세대 전환을 데이터와 전략으로 정리한 권위 있는 보고서"
+        },
+        {
+          "id": "ar-2604-fnb-kr-1",
+          "category": "fnb",
+          "region": "KR",
+          "headline": "오픈서베이 건강기능식품 트렌드 리포트 2026 — 채널별 소비 분화와 맞춤형 시대",
+          "summary": "건강기능식품이 일상 쇼핑 품목으로 완전히 편입됐다. 다이소(기본 영양제), 올리브영 올리브베러(뷰티·고기능), 쿠팡(정기구독), 네이버쇼핑(가격 비교)으로 채널별 소비 목적이 명확히 분화됐다.",
+          "tip": "건강기능식품 마케팅에서 채널 전략이 곧 타겟 전략이다. 동일 제품도 채널에 따라 메시지와 가격 포지셔닝을 달리해야 각 채널 소비자의 구매 목적에 부합한다.",
+          "publishedAt": "2026.04.19",
+          "source": "오픈서베이",
+          "url": "https://blog.opensurvey.co.kr/trendreport/health-supplement-2026/",
+          "pickReason": "국내 건강기능식품 시장의 채널별 소비 행태를 실데이터로 분석한 드문 실증 보고서"
+        },
+        {
+          "id": "ar-2604-fnb-kr-2",
+          "category": "fnb",
+          "region": "KR",
+          "headline": "편의점이 팬덤 마케팅 선두 채널로 부상 — KBO 포토카드 완판·FC 세븐일레븐 25만 명",
+          "summary": "세븐일레븐이 KBO 야구 팬 대상 포토카드를 출시 20일 만에 250만 팩 완판하고, FC 세븐일레븐 K리그 팝업스토어에 25만 명이 방문했다. 편의점이 스포츠·K-POP·캐릭터 팬덤을 겨냥한 마케팅 선두 채널로 자리 잡았다.",
+          "tip": "팝업스토어는 매출 이벤트가 아닌 데이터 수집 기회다. 방문자 행동 데이터 → 팬덤 세분화 → 다음 캠페인 타겟팅으로 이어지는 마케팅 파이프라인으로 설계해야 진짜 가치가 생긴다.",
+          "publishedAt": "2025.07.17",
+          "source": "모비인사이드",
+          "url": "https://www.mobiinside.co.kr/2025/07/17/fandom-marketing-2/",
+          "pickReason": "스포츠 팬덤과 리테일 마케팅의 교차점을 실데이터로 분석한 현장 밀착 아티클"
+        },
+        {
+          "id": "ar-2604-fnb-gl-1",
+          "category": "fnb",
+          "region": "GLOBAL",
+          "headline": "Food Dive 2026 F&B 5대 트렌드 — 이상한 맛·기능성·GLP-1·M&A·가치 재정의",
+          "summary": "2026년 식음료 업계는 고도로 모순된 소비자를 만족시켜야 한다. 건강을 원하면서도 편의와 탐닉을 추구하며 가격에 민감하면서도 기능성에 프리미엄을 낸다. GLP-1 비만 치료제 복용자가 미국 F&B 매출의 35%를 좌우하는 시대가 온다.",
+          "tip": "F&B 혁신의 황금 공식은 '기능성 + 이색 경험'이다. 건강 효능을 전면에 내세우되 맛과 경험에서 예상을 벗어나는 제품이 SNS 바이럴과 프리미엄 구매를 동시에 달성한다.",
+          "publishedAt": "2026.01.08",
+          "source": "Food Dive",
+          "url": "https://www.fooddive.com/news/food-beverage-trends-2026/809061/",
+          "pickReason": "글로벌 식음료 전문 매체의 2026년 연간 전망으로 산업 전반의 변화를 한눈에 파악 가능"
+        },
+        {
+          "id": "ar-2604-fnb-gl-2",
+          "category": "fnb",
+          "region": "GLOBAL",
+          "headline": "Innova Market Insights 2026 글로벌 F&B 소비자 트렌드 — 회복과 수명이 식음료를 바꾼다",
+          "summary": "이노바 마켓 인사이트의 2026 글로벌 소비자 트렌드 분석에 따르면 소비자의 1/3이 스트레스 관리를 위해 운동하고 29%가 정신 건강을 위해 삶을 단순화하고 있다. 기능성 성분, 전통 식재료 신뢰, 다감각 경험이 식음료 혁신의 3대 축이다.",
+          "tip": "음식이 기분과 뇌 건강을 관리하는 도구가 됐다. 적응성 허브(adaptogen), 기능성 버섯, 비알코올 음료 등 스트레스 관리 식음료 카테고리는 2026년 가장 빠르게 성장하는 영역이다.",
+          "publishedAt": "2025.11.14",
+          "source": "Innova Market Insights",
+          "url": "https://www.innovamarketinsights.com/trends/global-consumer-trends-2026/",
+          "pickReason": "글로벌 F&B 소비자 행동 변화를 가장 체계적으로 분석하는 전문 리서치 기관의 연간 보고서"
+        },
+        {
+          "id": "ar-2604-t-kr-1",
+          "category": "tech",
+          "region": "KR",
+          "headline": "2026 헬스케어 마케팅 트렌드 — 에이전틱 AI가 자율 파트너로 진화",
+          "summary": "브랜드그로우가 정리한 2026 헬스케어 마케팅 트렌드에 따르면 에이전틱 AI(인간 지시 없이 스스로 판단·실행)가 가장 큰 변화다. 고객 데이터 자동 분석, 마케팅 전략 수립, 실행까지 AI가 자율 수행하는 단계에 진입하고 있다.",
+          "tip": "AI를 도구가 아닌 운영 모델로 재정의하라. 반복 업무는 AI에 맡기고 인간은 전략적 판단, 감성적 연결, 윤리적 검토에 집중하는 역할 재설계가 2026년 마케팅 팀의 핵심 과제다.",
+          "publishedAt": "2025.10.15",
+          "source": "브랜드그로우 / 오픈애즈",
+          "url": "https://openads.co.kr/content/contentDetail?contsId=17618",
+          "pickReason": "헬스케어 분야 AI 마케팅 도입의 실무 관점 분석으로 전 산업에 적용 가능한 인사이트 제공"
+        },
+        {
+          "id": "ar-2604-t-kr-2",
+          "category": "tech",
+          "region": "KR",
+          "headline": "2026년 꼭 알아야 할 마케팅 트렌드 10 — AI·제로클릭·픽셀 라이프·필코노미",
+          "summary": "오픈애즈가 정리한 2026년 10대 마케팅 트렌드. 제로클릭(검색 없이 AI에서 답을 얻는 시대), 픽셀 라이프(미세한 취향 소비), 필코노미(기분 기반 소비), AX 조직이 마케터가 반드시 알아야 할 신조어로 선정됐다.",
+          "tip": "2026년 마케팅의 핵심은 기술과 인간의 균형점을 찾는 것이다. AI가 효율을 극대화할수록 인간의 판단·감성·공감은 더욱 희소하고 귀해진다. 브랜드의 인간적 면모를 강화하는 것이 AI 시대의 차별화 전략이다.",
+          "publishedAt": "2026.01.09",
+          "source": "오픈애즈",
+          "url": "https://openads.co.kr/content/contentDetail?contsId=18383",
+          "pickReason": "2026년 신조어와 트렌드를 한국 마케팅 실무 맥락에서 정리한 고밀도 인사이트 아티클"
+        },
+        {
+          "id": "ar-2604-t-gl-1",
+          "category": "tech",
+          "region": "GLOBAL",
+          "headline": "2026 AI 마케팅의 미래 — AI가 노출했다: 명확함 없는 마케팅은 볼륨이 많을수록 해롭다",
+          "summary": "2026년은 AI 마케팅 기대치가 현실과 만나는 해다. AI는 마케팅을 대체하지 않았지만 명확한 전략이 없는 팀을 드러냈다. AI 마케팅 수익이 2028년 1075억 달러를 초과할 전망이며 마케터의 69.1%가 이미 AI를 운영에 통합하고 있다.",
+          "tip": "AI 검색 플랫폼(ChatGPT, Claude, Gemini)에서 브랜드가 언급되지 않으면 사실상 존재하지 않는 것과 같다. 신뢰할 수 있는 미디어 출처에 브랜드가 언급되는 'AI 권위' 구축이 2026년 가시성 전략의 핵심이다.",
+          "publishedAt": "2026.03.17",
+          "source": "ContentGrip",
+          "url": "https://www.contentgrip.com/future-ai-marketing/",
+          "pickReason": "AI 마케팅의 현실을 냉철하게 진단하고 실질적 전략 방향을 제시하는 심층 분석 아티클"
+        },
+        {
+          "id": "ar-2604-t-gl-2",
+          "category": "tech",
+          "region": "GLOBAL",
+          "headline": "Search Everywhere Optimization — AI 시대의 새로운 가시성 전략",
+          "summary": "WSI World 분석에 따르면 2026년 기업은 Google 중심 SEO를 넘어 TikTok, YouTube, Reddit, ChatGPT 등 모든 검색 플랫폼에서 발견될 수 있는 'Search Everywhere Optimization' 전략이 필요하다. 클릭 수는 줄었지만 전환 품질은 높아졌다.",
+          "tip": "AI 검색에서는 키워드 순위가 아닌 브랜드 언급과 인용이 핵심 지표다. 리뷰, 포럼, 팟캐스트, 소셜 채널 전반에서 신뢰할 수 있는 출처로 참조되는 'AI 권위'를 쌓아라.",
+          "publishedAt": "2026.02.17",
+          "source": "WSI World",
+          "url": "https://www.wsiworld.com/blog/marketing-ai-predictions-that-will-shape-search-strategy-and-spend-in-2026",
+          "pickReason": "AI 검색 시대의 새로운 마케팅 전략 패러다임을 가장 명확하게 정리한 실전형 가이드"
+        },
+        {
+          "id": "ar-2604-fi-kr-1",
+          "category": "finance",
+          "region": "KR",
+          "headline": "스톤브랜드컨설팅 2026 웰니스 트렌드 Top 8 — 롱제비티와 신경계 조율이 핵심",
+          "summary": "2026년 웰니스는 단순 건강관리를 넘어 삶의 태도를 보여주는 거대한 문화로 진화했다. 롱제비티(삶의 밀도 향상), 신경계 조율(신경과학 기반 케어), AI 데이터 기반 정밀 개인화 케어, 공동체 중심 회복 문화가 4대 축이다.",
+          "tip": "웰니스 브랜드는 제품을 팔지 말고 삶의 구조를 설계하라. 과학적 근거 위에 감정적·문화적 경험을 쌓는 브랜드가 2026년 웰니스 시장을 주도한다.",
+          "publishedAt": "2026.01.03",
+          "source": "스톤브랜드컨설팅",
+          "url": "https://stonebc.com/archives/46982",
+          "pickReason": "국내 브랜드 전략 관점에서 웰니스 트렌드를 깊이 있게 해석한 고품질 인사이트 아티클"
+        },
+        {
+          "id": "ar-2604-fi-kr-2",
+          "category": "finance",
+          "region": "KR",
+          "headline": "레이디경향 2026 웰니스 리포트 — 식스 센스가 말하는 일상 속 웰니스 7가지",
+          "summary": "식스 센스 2026 웰니스 포어캐스트 요약. 직장 웰니스의 필수화, 호흡을 활용한 신경계 안정, 대비 요법(사우나·냉수욕)의 일상화, 아날로그 연결 추구, 디지털 디톡스, 영적 장수 개념이 2026년 글로벌 웰니스 트렌드다.",
+          "tip": "웰니스의 무대가 리조트에서 일상으로 완전히 이동했다. 브랜드는 소비자의 매일 루틴 속에서 웰니스 가치를 전달하는 '생활 밀착형 경험'을 설계해야 한다.",
+          "publishedAt": "2026.01.26",
+          "source": "레이디경향",
+          "url": "https://lady.khan.co.kr/beauty/article/202601261022001/",
+          "pickReason": "글로벌 최고 수준 웰니스 브랜드의 트렌드 전망을 한국 독자 관점에서 정리한 가독성 높은 아티클"
+        },
+        {
+          "id": "ar-2604-fi-gl-1",
+          "category": "finance",
+          "region": "GLOBAL",
+          "headline": "Taboola 핀테크 마케팅 트렌드 2026 — 신뢰 구축·모바일 퍼스트·AI 개인화가 3대 축",
+          "summary": "핀테크 마케팅의 핵심은 신뢰다. Gen Z의 38%만이 금융 서비스 제공자를 신뢰하며, 54%의 소비자가 금융 제공자가 데이터를 활용해 경험을 개인화해주길 원한다. 글로벌 개인금융앱 시장은 2033년까지 18.2% 성장 전망이다.",
+          "tip": "핀테크 마케팅에서 교육 콘텐츠는 신뢰 구축의 가장 강력한 도구다. 복잡한 금융 개념을 쉽게 설명하는 영상·블로그·웨비나가 신뢰를 먼저 쌓고 그다음 전환을 이끈다.",
+          "publishedAt": "2025.08.03",
+          "source": "Taboola",
+          "url": "https://www.taboola.com/marketing-hub/fintech-marketing-trends/",
+          "pickReason": "핀테크 마케팅의 소비자 신뢰 구축 전략을 데이터와 함께 정리한 실무형 가이드"
+        },
+        {
+          "id": "ar-2604-fi-gl-2",
+          "category": "finance",
+          "region": "GLOBAL",
+          "headline": "Fin.Tech Marketing Community 2026 연간 보고서 — AI가 핀테크 마케팅의 핵심 레이어로",
+          "summary": "100개국 이상 C레벨 금융 마케팅 리더들을 대상으로 한 2026 연간 보고서. AI가 계획·실행·측정 전반을 재편하며 예측 분석 중심으로 이동하고 있다. 커뮤니티 기반 마케팅과 전략적 사고의 역할이 AI 시대에 오히려 더 중요해졌다.",
+          "tip": "금융 마케팅에서 AI는 데이터 처리와 측정을 담당하고 인간은 관계 구축과 신뢰 형성을 담당해야 한다. 기술 도입이 아닌 인간과 AI의 역할 분담 설계가 핀테크 마케팅 성공의 핵심이다.",
+          "publishedAt": "2026.02.16",
+          "source": "Fin.Tech Marketing Community",
+          "url": "https://fintechmarketingcommunity.com/news/the-future-of-fintech-marketing-trends-predictions-for-2026",
+          "pickReason": "글로벌 핀테크 마케팅 리더들의 집단 지성을 담은 권위 있는 연간 산업 보고서"
+        },
+        {
+          "id": "ar-2604-h-kr-1",
+          "category": "health",
+          "region": "KR",
+          "headline": "더퓨처 2026 웰니스 트렌드 'LONGEVITY' — AI 영양 최적화·뉴로웰니스·홈 웰니스",
+          "summary": "더퓨처가 2026년 9가지 웰니스 트렌드를 발표했다. AI 기술을 활용한 개인 맞춤 영양 관리, 정신건강과 뇌건강 일상화(뉴로웰니스), 스마트 웨어러블 기반 운동 최적화, 홈 웰니스 강화가 핵심이다.",
+          "tip": "웰니스 시장은 '얼마나 오래 사는가'에서 '어떻게 건강하게 사는가'로 이동했다. AI 개인화와 커뮤니티 회복 문화를 결합한 이너뷰티·이너케어 카테고리가 2026년 가장 빠르게 성장한다.",
+          "publishedAt": "2025.12.31",
+          "source": "더퓨처 / 헬스경향",
+          "url": "https://www.k-health.com/news/articleView.html?idxno=88538",
+          "pickReason": "국내 웰니스 전문 기관의 2026 트렌드 키워드 분석으로 산업 방향성 파악에 최적"
+        },
+        {
+          "id": "ar-2604-h-kr-2",
+          "category": "health",
+          "region": "KR",
+          "headline": "민텔 코리아 — 예방적 건강 소비자 트렌드가 CPG 시장을 재편한다",
+          "summary": "민텔 분석에 따르면 예방적 건강에 대한 소비자 관심 증가가 소비재(CPG) 시장 전반을 재편하고 있다. 피트니스·식품·웨어러블·주류 업계 모두 건강 연계 파트너십 기회가 급증하고 있으며 글로벌 헬스·웰니스 시장은 북미·아태·유럽이 전체의 90%를 차지한다.",
+          "tip": "브랜드 파트너십의 황금 영역이 건강·웰니스 카테고리다. 피트니스 센터·식품 브랜드·웨어러블 기기의 통합 경험 제공이 소비자의 전체론적 건강 접근 방식과 맞아떨어진다.",
+          "publishedAt": "2025.09.01",
+          "source": "Mintel Korea",
+          "url": "https://www.mintel.com/kr/insights/consumer-research/%EA%B1%B4%EA%B0%95%EC%9D%84-%EC%A4%91%EC%8B%9C%ED%95%98%EB%8A%94-%EC%86%8C%EB%B9%84%EC%9E%90-%ED%8A%B8%EB%A0%8C%EB%93%9C-%EC%86%8C%EB%B9%84%EC%9E%ACcpg-%EC%8B%9C%EC%9E%A5-%ED%98%81%EC%8B%A0/",
+          "pickReason": "글로벌 소비자 리서치 기관의 한국어 인사이트로 국내외 건강 소비 트렌드를 동시에 파악 가능"
+        },
+        {
+          "id": "ar-2604-h-gl-1",
+          "category": "health",
+          "region": "GLOBAL",
+          "headline": "2026 글로벌 웰니스 트렌드 10 — 최적화를 넘어 회복과 수명으로",
+          "summary": "글로벌 웰니스 트렌드 분석에 따르면 2026년 핵심 변화는 최적화(performance)에서 회복(recovery)과 수명(longevity)으로의 전환이다. Hardcare(AI 진단·롱제비티 기술)와 Softcare(사우나·호흡·커뮤니티)가 동시에 성장하는 양면 구조가 형성됐다.",
+          "tip": "웰니스 마케팅에서 '더 강해지기'보다 '더 잘 회복하기'가 더 큰 공감을 얻는 시대가 됐다. 회복, 수면, 스트레스 관리, 신경계 조절을 전면에 내세우는 메시지가 2026년 소비자에게 더 강하게 닿는다.",
+          "publishedAt": "2026.02.23",
+          "source": "코드 코리아 (글로벌 웰니스 트렌드 정리)",
+          "url": "https://www.threads.com/@kodeok.kr/post/DVGZUlVkyh1/",
+          "pickReason": "글로벌 웰니스 10대 트렌드를 종합 분석한 희귀 한국어 큐레이션 아티클"
+        },
+        {
+          "id": "ar-2604-h-gl-2",
+          "category": "health",
+          "region": "GLOBAL",
+          "headline": "IFT 2026 소비자가 원하는 것 — 달러당 영양, 장 건강, 기분 관리 식음료",
+          "summary": "IFT 소비자 트렌드 서베이에 따르면 2026년 소비자의 최대 관심사는 식품 가격·인공 첨가물·초가공식품 순이다. '달러당 영양(nutrition per dollar)'이 핵심 구매 기준이 됐고 장 건강·뇌 건강·스트레스 관리 기능성 식품이 빠르게 성장하고 있다.",
+          "tip": "건강식품 마케팅에서 가치 대비 효능(Value-for-health)을 전면에 내세워라. 소비자는 비용 상승 속에서도 건강 투자를 줄이지 않지만 구매 기준이 가성비 중심으로 진화하고 있다.",
+          "publishedAt": "2026.01.15",
+          "source": "IFT (Institute of Food Technologists)",
+          "url": "https://www.ift.org/news-and-publications/food-technology-magazine/issues/2026/january/features/what-consumers-want-in-2026",
+          "pickReason": "식음료 기술 전문 기관의 소비자 조사로 F&B 마케팅 전략의 실증적 근거 제공"
+        },
+        {
+          "id": "ar-2604-tr-kr-1",
+          "category": "travel",
+          "region": "KR",
+          "headline": "보그 코리아 2026 웰니스 트렌드 6 — 직장 웰니스·호흡·아날로그 연결의 일상화",
+          "summary": "식스 센스가 전망한 2026년 웰니스 트렌드를 보그 코리아가 정리했다. 초연결 시대의 해답은 오히려 아날로그로, 공용 테이블 대화, 공예 클래스, 파라데이 백을 이용한 스마트폰 차단 등 의도적 아날로그 연결이 웰니스 트렌드로 부상했다.",
+          "tip": "디지털 과부하에 지친 소비자를 위해 '오프라인 경험'을 마케팅 차별점으로 설계하라. 화면 없이 몰입하는 오프라인 이벤트와 커뮤니티가 2026년 가장 기억에 남는 브랜드 경험이 된다.",
+          "publishedAt": "2026.01.02",
+          "source": "Vogue Korea",
+          "url": "https://www.vogue.co.kr/2026/01/02/2026%EB%85%84%EC%9D%84-%EC%A3%BC%EB%8F%84%ED%95%A0-%EC%9B%B0%EB%8B%88%EC%8A%A4-%ED%8A%B8%EB%A0%8C%EB%93%9C-6%EA%B0%80%EC%A7%80/",
+          "pickReason": "글로벌 웰니스 트렌드를 한국 감성으로 큐레이션한 고급 라이프스타일 매체의 신뢰도 높은 콘텐츠"
+        },
+        {
+          "id": "ar-2604-tr-kr-2",
+          "category": "travel",
+          "region": "KR",
+          "headline": "하퍼스 바자 코리아 — 여행이 웰니스 리추얼이 되는 시대, 8가지 뷰티·웰니스 키워드",
+          "summary": "2026년 여행이 '아름다워지기 위한 리추얼'로 자리 잡았다. 스킨 롱제비티, 뉴로웰니스, 고기능성 미니멀리즘, 클린뷰티의 확산이 여행·웰니스·뷰티를 하나의 라이프스타일 카테고리로 통합하고 있다.",
+          "tip": "여행 브랜드는 '관광'이 아닌 '회복과 재충전'을 전면에 내세워라. 수면케어·스트레스 관리·디지털 디톡스를 연계한 웰니스 투어 패키지가 2026년 여행 시장의 핵심 성장 동력이다.",
+          "publishedAt": "2026.01.07",
+          "source": "하퍼스 바자 코리아",
+          "url": "https://www.harpersbazaar.co.kr/article/1895118",
+          "pickReason": "여행과 웰니스의 융합 트렌드를 국내 소비자 관점에서 정리한 라이프스타일 인사이트"
+        },
+        {
+          "id": "ar-2604-tr-gl-1",
+          "category": "travel",
+          "region": "GLOBAL",
+          "headline": "Evok Advertising 2026 목적지 마케팅 8대 트렌드 — 정체성 여행·AI 개인화·느린 여행",
+          "summary": "Global Hotel Alliance 조사에서 65%의 여행자가 여행이 자신의 정체성을 표현한다고 답했다. Gen Z의 50%는 여행을 커리어보다 중요하게 여기며 42%가 '느리고 편안한' 비계획형 여행을 선호한다. 글로벌 총 예약 규모가 1.67조 달러에 달할 전망이다.",
+          "tip": "여행 마케팅의 전환점: 명소 중심에서 변화 경험 중심으로. 목적지 캠페인은 '무엇을 볼 수 있나'가 아닌 '방문 후 어떻게 달라질 수 있나'를 전달할 때 전환율이 높아진다.",
+          "publishedAt": "2026.04.01",
+          "source": "Evok Advertising",
+          "url": "https://evokad.com/travel-tourism-marketing-trends-2026/",
+          "pickReason": "글로벌 여행 마케팅의 소비자 심리 변화를 데이터와 전략으로 명확히 정리한 실무 가이드"
+        },
+        {
+          "id": "ar-2604-tr-gl-2",
+          "category": "travel",
+          "region": "GLOBAL",
+          "headline": "TravelSpike 2026 여행 마케팅 플레이북 — FIFA 월드컵·AI 초개인화·지속가능성",
+          "summary": "2026년 FIFA 월드컵이 북미에서 열리며 여행 업계의 최대 이벤트가 된다. AI가 여행 계획과 예약에서 필수 도구로 자리 잡으면서 음성 검색, 시각 검색, AI 맞춤 추천이 여행 발견의 새 경로가 됐다. 지속가능성이 스토리텔링의 핵심 자산으로 부상했다.",
+          "tip": "스포츠 대형 이벤트는 여행 마케팅의 최대 기회다. 월드컵 개최 도시뿐 아니라 항공·철도로 연결된 인근 지역까지 마이크로 시즌 캠페인을 설계해 이벤트 효과를 극대화하라.",
+          "publishedAt": "2025.12.06",
+          "source": "TravelSpike",
+          "url": "https://travelspike.com/2026-travel-marketing-trends-the-strategic-playbook-for-whats-coming-next/",
+          "pickReason": "2026년 여행 마케팅의 전략적 기회를 FIFA 월드컵 맥락과 함께 구체적으로 정리한 실전 플레이북"
+        },
+        {
+          "id": "ar-2604-m-kr-1",
+          "category": "media",
+          "region": "KR",
+          "headline": "인크로스 2025 디지털 마케팅 트렌드 C.H.A.T.S — 챗핑·헬스보드·AI 제작 파트너",
+          "summary": "인크로스가 발표한 2025 디지털 마케팅 트렌드 CHATS. 채팅과 쇼핑의 합성어 '챗핑', 건강 데이터 추적 '헬스보드', 인간 전략+AI 제작의 협업 구조, 투명성 요구 증가, 세대간 소비문화 융합이 5대 키워드다.",
+          "tip": "쇼핑의 시작점이 검색창에서 대화로 이동하고 있다. 챗핑(Chatping) 환경에서 소비자와 자연스럽게 대화하는 AI 기반 채팅 커머스 채널 구축이 2026년 이커머스 브랜드의 핵심 과제다.",
+          "publishedAt": "2024.12.04",
+          "source": "인크로스 / 오픈애즈",
+          "url": "https://openads.co.kr/content/contentDetail?contsId=14803",
+          "pickReason": "국내 디지털 광고 전문 기업의 실무 기반 트렌드 분석으로 현장 적용 가능성이 높은 인사이트"
+        },
+        {
+          "id": "ar-2604-m-kr-2",
+          "category": "media",
+          "region": "KR",
+          "headline": "CJ 메조미디어 2026 디지털 미디어 마일스톤 — AI 광고·발견형 쇼핑·OTT 생존전략",
+          "summary": "CJ 메조미디어가 선정한 2026 디지털 미디어 마일스톤. AI가 광고 운영부터 미디어까지 전면 변화를 만들고, 발견형 쇼핑 트렌드에 맞춰 이커머스 플랫폼이 변모하며, OTT가 광고 경쟁 시대에서 생존 전략을 찾고 있다.",
+          "tip": "AI 광고 자동화와 발견형 쇼핑이 결합되는 트렌드에 대응해 콘텐츠형 광고 소재를 우선 확보하라. 상품을 광고하는 것이 아니라 라이프스타일을 보여주는 콘텐츠 광고가 클릭률과 전환율을 동시에 높인다.",
+          "publishedAt": "2026.01.27",
+          "source": "CJ 메조미디어",
+          "url": "https://www.cjmezzomedia.com/insight-m",
+          "pickReason": "국내 최고 수준의 미디어 리서치 기관의 연간 마일스톤 보고서로 채널 전략 기획에 필수 참고 자료"
+        },
+        {
+          "id": "ar-2604-m-gl-1",
+          "category": "media",
+          "region": "GLOBAL",
+          "headline": "Wix 2026 마케팅 트렌드 8 — 크링지 마케팅·IRL 이벤트·트렌드재킹의 귀환",
+          "summary": "Wix가 선정한 2026년 8대 마케팅 트렌드. 오글거리고 민망한 '크링지 마케팅'이 주목 경제에서 효과적인 돌파구가 됐고, 온라인 피로로 인한 소규모 IRL(실제 경험) 이벤트의 가치가 높아졌다. 스타벅스 커피 시음회, 알로 요가 강습 같은 친밀한 오프라인 모임이 브랜드 신뢰를 만든다.",
+          "tip": "브랜드 이벤트를 컨퍼런스가 아닌 '사람들이 진짜 경험하고 싶은 것'으로 설계하라. 소규모지만 강도 높은 오프라인 커뮤니티 경험이 대규모 온라인 캠페인보다 더 깊은 브랜드 연결을 만든다.",
+          "publishedAt": "2025.12.19",
+          "source": "Wix",
+          "url": "https://ko.wix.com/blog/post/marketing-trends",
+          "pickReason": "글로벌 SMB 마케팅 플랫폼의 실용적 트렌드 분석으로 중소 브랜드의 실천 가능한 전략을 담고 있음"
+        },
+        {
+          "id": "ar-2604-m-gl-2",
+          "category": "media",
+          "region": "GLOBAL",
+          "headline": "2026 AI 마케팅 예측 — 마케터의 58%가 검색량 감소 체감, 클릭보다 인용이 새 KPI",
+          "summary": "HubSpot State of Marketing 2026 보고서에 따르면 마케터의 58%가 검색량 감소를 체감하지만 검색 의도는 오히려 강해졌다. 퍼스트파티 데이터, 로열티 프로그램, AI 인용 콘텐츠가 2026년 마케팅의 3대 전략 자산이다.",
+          "tip": "클릭 수보다 AI 검색 인용 수를 KPI로 설정하라. AI 검색 결과에 브랜드가 인용되기 위해서는 구조화된 전문성 콘텐츠, 신뢰할 수 있는 출처 신호, 멀티플랫폼 일관성이 필요하다.",
+          "publishedAt": "2026.02.17",
+          "source": "HubSpot / WSI World",
+          "url": "https://www.wsiworld.com/blog/marketing-ai-predictions-that-will-shape-search-strategy-and-spend-in-2026",
+          "pickReason": "2026년 마케팅 KPI 패러다임 전환을 가장 명확하게 데이터로 보여주는 전략 보고서"
+        },
+        {
+          "id": "ar-2604-b-kr-1",
+          "category": "b2b",
+          "region": "KR",
+          "headline": "2026 AI마케팅 인사이트 총정리 — AI 효율·팬덤 기반 참여·유료 경험 프리미엄화",
+          "summary": "AI마케팅 인사이트가 정리한 2026 마케팅 총정리. 하바스 레드가 팬덤 기반 브랜드 참여, 대담함, 유료 경험 프리미엄화를 핵심 트렌드로 제시했다. PPC 마케터의 87%가 AI 중심 캠페인 운영 중이며 62%는 성과 개선과 함께 통제력 감소를 체감하고 있다.",
+          "tip": "AI 마케팅에서 마케터의 역할이 실행자에서 편집자·감시자로 바뀐다. AI 산출물을 브랜드 관점에서 큐레이션하고 인간적 감성을 더하는 역량이 2026년 마케터의 핵심 스킬이 됐다.",
+          "publishedAt": "2026.01.13",
+          "source": "AI마케팅 인사이트",
+          "url": "https://aimkt.biz/2026%eb%85%84-%eb%a7%88%ec%bc%80%ed%8c%85-%ed%8a%b8%EB%A0%8C%EB%93%9C-%EB%B3%B4%EA%B3%A0%EC%84%9c-%ec%b4%9d%ec%a0%95%eb%a6%ac/",
+          "pickReason": "국내외 주요 마케팅 보고서를 종합 정리한 고밀도 아티클로 전략 기획 시 참고 가치 높음"
+        },
+        {
+          "id": "ar-2604-b-kr-2",
+          "category": "b2b",
+          "region": "KR",
+          "headline": "오픈애즈 2026 브랜드 마케팅 전략 — 영혼 있는 브랜드·서사 마케팅·향수 전략",
+          "summary": "오픈애즈가 정리한 2026 브랜드 마케팅 핵심: AI Slop 시대에 영혼 있는 브랜드만 살아남는다. 트렌드에 편승하는 브랜드는 외면받고 진정으로 참여하는 브랜드만 남는다. 노력하는 브랜드가 다시 멋있어졌다. 향수가 여전히 가장 강력한 감정 자산이다.",
+          "tip": "AI가 생산하는 완벽한 콘텐츠 속에서 불완전하지만 진정성 있는 브랜드 스토리가 차별화된다. 직원을 브랜드를 말하는 사람이 아닌 브랜드를 만드는 사람으로 마케팅 전면에 내세워라.",
+          "publishedAt": "2026.01.09",
+          "source": "오픈애즈",
+          "url": "https://openads.co.kr/content/contentDetail?contsId=18383",
+          "pickReason": "2026년 브랜드 마케팅의 핵심 키워드를 한국 실무 관점에서 심층 분석한 아티클"
+        },
+        {
+          "id": "ar-2604-b-gl-1",
+          "category": "b2b",
+          "region": "GLOBAL",
+          "headline": "Sagefrog 2026 B2B 테크 마케팅 8대 트렌드 — ABM 진화·커뮤니티 주도 성장·윤리적 마케팅",
+          "summary": "2026년 B2B 테크 마케팅의 핵심 트렌드는 AI 기반 ABM(Account-Based Marketing) 진화, RevOps 표준화, 커뮤니티 주도 성장, 윤리적 마케팅의 필수화다. 기업의 94%가 생성형 AI를 워크플로우에 통합하고 있으며 자율 마케팅이 도래하고 있다.",
+          "tip": "B2B 마케팅에서 리드 생성보다 파이프라인 기여도가 핵심 지표로 전환되고 있다. MQL 수보다 캠페인이 만들어낸 매출 기여도를 측정하는 Revenue Marketing 체계를 지금 구축하라.",
+          "publishedAt": "2025.10.07",
+          "source": "Sagefrog",
+          "url": "https://www.sagefrog.com/blog/top-8-b2b-tech-marketing-trends-to-watch-in-2026/",
+          "pickReason": "B2B 테크 마케팅의 전략적 진화 방향을 가장 체계적으로 정리한 실무 가이드"
+        },
+        {
+          "id": "ar-2604-b-gl-2",
+          "category": "b2b",
+          "region": "GLOBAL",
+          "headline": "Digitalzone 2026 B2B 마케팅 10대 트렌드 — 공격으로 전환하는 해, 더 정밀·더 창의적·더 인간적으로",
+          "summary": "Digitalzone이 예측한 2026 B2B 마케팅 10대 트렌드. '지루한 B2B'는 공식적으로 구시대가 됐다. AI가 실시간으로 캠페인을 조율하는 자율 마케팅 시대, 정적 PDF에서 인터랙티브 콘텐츠로의 전환, MQL에서 실제 매출 기여로의 지표 전환이 핵심이다.",
+          "tip": "B2B 구매자는 정보의 60~70%를 판매팀과 접촉 전에 AI와 동료 리뷰로 수집한다. 구매 여정 초기에 발견되는 콘텐츠 전략이 최우선이며, 인터랙티브 콘텐츠로 구매자를 직접 도와야 한다.",
+          "publishedAt": "2025.12.22",
+          "source": "Digitalzone",
+          "url": "https://digitalzone.com/blog/emerging-b2b-trends/",
+          "pickReason": "B2B 마케팅 실무자의 관점에서 2026년 변화를 가장 현실적으로 진단한 전략 아티클"
         }
       ]
     }
@@ -126,57 +660,166 @@
       "quarterKey": "2026-Q2",
       "quarterLabel": "2026년 2분기",
       "period": "2026.04 ~ 06",
-      "monthsIncluded": ["2026-04"],
+      "monthsIncluded": [
+        "2026-04"
+      ],
       "generatedAt": "2026.04.22",
       "themes": [
         {
           "rank": 1,
-          "title": "AI 신뢰의 역설",
-          "desc": "인공지능이 마케팅 전반을 자동화하는 동시에, 소비자들은 AI 생성 콘텐츠에 피로감을 느끼며 인간성과 진정성을 더욱 강하게 요구하고 있다. Anti-AI 마케팅, 제로 클릭 검색, AEO 전략이 이 역설의 핵심을 관통한다.",
-          "keywords": ["Anti-AI", "AEO", "진정성", "AI Slop 피로", "신뢰 마케팅"],
-          "relatedLinks": [
-            { "title": "AI 마케팅 도입 기업 vs 미도입 기업 18개월 성과 비교", "url": "https://www.salesforce.com/research", "publishedAt": "2025.12.03", "source": "Salesforce Research" },
-            { "title": "ChatGPT 광고 출시 — AI 신뢰 계약의 균열", "url": "https://www.adweek.com/brand-marketing/10-ai-marketing-trends-for-2026-agentic-ai-and-search-shifts/", "publishedAt": "2026.02.18", "source": "ADWEEK" },
-            { "title": "Anti-AI 마케팅의 부상 — 인간성이 차별점이 된다", "url": "https://www.destinationcrm.com/", "publishedAt": "2026.01.22", "source": "CRM Magazine" },
-            { "title": "Google AI 오버뷰 전면 확대 — SEO 전략 대전환", "url": "https://www.searchenginejournal.com", "publishedAt": "2026.04.03", "source": "Search Engine Journal" }
+          "title": "AI 신뢰의 역설 — 기술이 넘칠수록 인간의 목소리가 희소해진다",
+          "desc": "AI가 마케팅 전반을 자동화하는 동시에 소비자들은 AI 생성 콘텐츠에 피로감을 느끼며 인간성과 진정성을 더욱 강하게 요구한다. 마케터의 58%가 검색량 감소를 체감하고 96%가 AI를 사용하는 시대에, 오히려 '사람의 목소리'가 가장 희소한 자산이 됐다.",
+          "keywords": [
+            "Anti-AI",
+            "GEO",
+            "진정성",
+            "AI Slop 피로",
+            "영혼 있는 브랜드"
           ],
-          "editorNote": "AI가 만든 콘텐츠가 넘쳐나는 시대에 사람의 목소리가 오히려 희소 자원이 됐다. PROSVIEW 이번 호에서 이 역설을 정면으로 다루는 것은 스포츠 마케팅 현장에도 직접적 시사점을 준다."
+          "relatedLinks": [
+            {
+              "title": "인크로스 2026 디지털 마케팅 트렌드 — CAPEX와 GEO 전략",
+              "url": "https://ditoday.com/%EC%9D%B8%ED%81%AC%EB%A1%9C%EC%8A%A4-2026-%EB%94%94%EC%A7%80%ED%84%B8-%EB%A7%88%EC%BC%80%ED%8C%85-%ED%8A%B8%EB%A0%8C%EB%93%9C-%EB%A6%AC%ED%8F%AC%ED%8A%B8-%EB%B0%9C%ED%91%9C/",
+              "publishedAt": "2025.12.02",
+              "source": "인크로스 / 디지털인사이트"
+            },
+            {
+              "title": "덴츠 2026 Media Trends — 알고리즘 시대의 인간적 진실 3가지",
+              "url": "https://aimkt.biz/2026%eb%85%84-%eb%a7%88%ec%bc%80%ed%8c%85-%ed%8a%b8%EB%A0%8C%EB%93%9c-%ec%b4%9d%ec%a0%95%eb%a6%ac/",
+              "publishedAt": "2025.11.20",
+              "source": "Dentsu Global"
+            },
+            {
+              "title": "2026 마케팅의 시대 — AI가 노출했다: 명확함이 없는 마케팅은 무용",
+              "url": "https://www.destinationcrm.com/Articles/Editorial/Magazine-Features/The-Top-Marketing-Trends-and-Technologies-for-2026%C2%A0Marketings-Age-of-AI-Has-Arrived-Now-Comes-the-Hard-Part-174149.aspx",
+              "publishedAt": "2026.04.01",
+              "source": "CRM Magazine"
+            },
+            {
+              "title": "Search Everywhere Optimization — AI 시대의 새로운 가시성 전략",
+              "url": "https://www.wsiworld.com/blog/marketing-ai-predictions-that-will-shape-search-strategy-and-spend-in-2026",
+              "publishedAt": "2026.02.17",
+              "source": "WSI World"
+            }
+          ],
+          "editorNote": "프로스포츠 산업도 AI Slop의 영향권에 있다. 경기 하이라이트, 선수 인터뷰, 팬 소통 콘텐츠에서 AI 자동화가 늘어날수록 직접 경험에서 우러나온 진정성 있는 현장 스토리의 가치가 폭발적으로 높아진다. PROSVIEW는 이 역설을 스포츠 산업 맥락에서 구체적으로 다룰 필요가 있다."
         },
         {
           "rank": 2,
-          "title": "커뮤니티가 곧 플랫폼이다",
-          "desc": "팔로워 수보다 커뮤니티 밀도가 중요한 시대가 됐다. 스포츠 팬덤, 웰니스 커뮤니티, Threads 비즈니스 생태계 등 소속감을 중심으로 한 마케팅이 전 분야에서 공통적으로 부상하고 있다.",
-          "keywords": ["팬 커뮤니티", "Threads", "소속감", "퍼스트파티 데이터", "마이크로 크리에이터"],
-          "relatedLinks": [
-            { "title": "프로스포츠 팬 경험 디자인 — 경기장 밖에서도 팬이 되게 하는 법", "url": "https://www.kspo.or.kr", "publishedAt": "2025.09.22", "source": "한국스포츠정책과학원" },
-            { "title": "KBO 리그 관중 400만 돌파 — 스포츠 마케팅 플랫폼 진화", "url": "https://www.sportsseoul.com", "publishedAt": "2026.04.14", "source": "스포츠서울" },
-            { "title": "LinkedIn Thought Leader Ads 정식 출시", "url": "https://business.linkedin.com", "publishedAt": "2026.04.02", "source": "LinkedIn Marketing Blog" }
+          "title": "웰니스가 산업의 경계를 허문다 — 헬스·뷰티·여행·F&B의 융합",
+          "desc": "웰니스가 특별한 서비스를 넘어 일상의 구조로 정착하면서 건강, 뷰티, 여행, 식음료, 금융까지 전 산업이 웰니스 언어로 재포지셔닝하고 있다. 롱제비티, 뉴로웰니스, 헬시 플레저가 2026년 소비의 공통 키워드가 됐다.",
+          "keywords": [
+            "롱제비티",
+            "헬시 플레저",
+            "뉴로웰니스",
+            "웰니스 투어리즘",
+            "얼리 웰니스"
           ],
-          "editorNote": "프로스포츠 관점에서 팬덤은 가장 강력한 커뮤니티다. 단순 응원단에서 브랜드 공동창작자로 팬을 진화시키는 전략이 이번 분기 핵심 화두다."
+          "relatedLinks": [
+            {
+              "title": "Six Senses 2026 웰니스 6대 트렌드 — 직장 웰니스·호흡·아날로그 연결",
+              "url": "https://www.vogue.co.kr/2026/01/02/2026%EB%85%84%EC%9D%84-%EC%A3%BC%EB%8F%84%ED%95%A0-%EC%9B%B0%EB%8B%88%EC%8A%A4-%ED%8A%B8%EB%A0%8C%EB%93%9C-6%EA%B0%80%EC%A7%80/",
+              "publishedAt": "2026.01.02",
+              "source": "Six Senses / Vogue Korea"
+            },
+            {
+              "title": "올리브영 2026 트렌드 키워드 'FULLMOON' — K뷰티·얼리 웰니스·수면케어",
+              "url": "https://www.beautynury.com/news/view/110234/cat/10",
+              "publishedAt": "2025.12.19",
+              "source": "CJ올리브영 / 뷰티누리"
+            },
+            {
+              "title": "더퓨처 2026 웰니스 트렌드 'LONGEVITY' — 9가지 변화",
+              "url": "https://www.k-health.com/news/articleView.html?idxno=88538",
+              "publishedAt": "2025.12.31",
+              "source": "더퓨처 / 헬스경향"
+            },
+            {
+              "title": "Innova Market Insights 2026 글로벌 F&B 소비자 트렌드",
+              "url": "https://www.innovamarketinsights.com/trends/global-consumer-trends-2026/",
+              "publishedAt": "2025.11.14",
+              "source": "Innova Market Insights"
+            }
+          ],
+          "editorNote": "프로스포츠와 웰니스의 교차점이 점점 넓어지고 있다. 경기장을 웰니스 경험 공간으로 재설계하거나, 스포츠 관람 자체를 '에너지 충전·커뮤니티 회복' 경험으로 포지셔닝하는 새로운 마케팅 언어가 필요하다. 이 분기 PROSVIEW가 집중해야 할 핵심 칼럼 주제다."
         },
         {
           "rank": 3,
-          "title": "웰니스의 일상화 — 헬시 플레저",
-          "desc": "웰니스가 특별한 활동이 아닌 일상 루틴으로 정착하고 있다. 뷰티·F&B·여행·헬스케어 분야 전반에서 즐거운 건강 관리가 소비 키워드로 자리 잡았다.",
-          "keywords": ["헬시 플레저", "얼리 웰니스", "수면케어", "K뷰티", "웰니스 투어리즘"],
-          "relatedLinks": [
-            { "title": "국내 수면케어 시장 1조 원 돌파", "url": "https://health.chosun.com", "publishedAt": "2026.04.19", "source": "헬스조선" },
-            { "title": "올리브영 FULLMOON — 초개인화 K뷰티 + 얼리 웰니스", "url": "https://www.beautynury.com/news/view/110234/cat/10", "publishedAt": "2026.01.15", "source": "뷰티누리" },
-            { "title": "직장 웰니스의 필수화", "url": "https://www.vogue.co.kr/", "publishedAt": "2026.01.02", "source": "Vogue Korea" }
+          "title": "경험 경제의 진화 — 공간이 콘텐츠가 되고, 이벤트가 정체성이 된다",
+          "desc": "리테일, 여행, F&B, 럭셔리 전 분야에서 소비자는 제품이 아닌 경험을 산다. 팝업 스토어, 웰니스 투어리즘, 스포츠 이벤트 여행, 몰입형 럭셔리 플래그십이 브랜드의 새로운 표현 수단이 됐다. 소유보다 경험, 관람보다 참여가 2026년 소비의 핵심 동기다.",
+          "keywords": [
+            "경험 경제",
+            "웰니스 투어리즘",
+            "팝업스토어",
+            "몰입형 럭셔리",
+            "정체성 여행"
           ],
-          "editorNote": "스포츠와 웰니스의 교차점이 점점 넓어지고 있다. 프로스포츠 관람 자체를 웰니스 경험으로 포지셔닝하는 새로운 마케팅 언어가 필요한 시점이다."
+          "relatedLinks": [
+            {
+              "title": "Evok Advertising 2026 목적지 마케팅 8대 트렌드 — 정체성 여행·AI 개인화",
+              "url": "https://evokad.com/travel-tourism-marketing-trends-2026/",
+              "publishedAt": "2026.04.01",
+              "source": "Evok Advertising"
+            },
+            {
+              "title": "글로벌 럭셔리 리테일 2026 — Gen Z·밀레니얼이 럭셔리 시장의 45%를 점령",
+              "url": "https://clarkstonconsulting.com/insights/2026-luxury-retail-trends/",
+              "publishedAt": "2026.02.17",
+              "source": "Clarkston Consulting"
+            },
+            {
+              "title": "TravelSpike 2026 여행 마케팅 플레이북 — FIFA 월드컵·AI·지속가능성",
+              "url": "https://travelspike.com/2026-travel-marketing-trends-the-strategic-playbook-for-whats-coming-next/",
+              "publishedAt": "2025.12.06",
+              "source": "TravelSpike"
+            },
+            {
+              "title": "편의점 팬덤 마케팅 — KBO 포토카드 완판·FC 세븐일레븐 25만 명 방문",
+              "url": "https://www.mobiinside.co.kr/2025/07/17/fandom-marketing-2/",
+              "publishedAt": "2025.07.17",
+              "source": "모비인사이드"
+            }
+          ],
+          "editorNote": "스포츠 경기장은 이미 경험 공간의 최전선이다. 그러나 비시즌과 비경기일에도 팬을 모을 수 있는 연중 콘텐츠 플랫폼으로 진화하는 것이 다음 과제다. 타 산업의 팝업·웰니스·럭셔리 공간 설계 사례에서 프로스포츠 경기장의 변신 힌트를 찾을 수 있다."
         },
         {
           "rank": 4,
-          "title": "경험 공간의 콘텐츠화",
-          "desc": "리테일·스포츠 스타디움·여행지가 단순 소비 공간을 넘어 지속적으로 콘텐츠를 생산하는 라이브 플랫폼으로 진화하고 있다.",
-          "keywords": ["리테일테인먼트", "순환형 공간", "스타디움 플랫폼", "팝업", "경험 마케팅"],
-          "relatedLinks": [
-            { "title": "스타디움의 연중 엔터테인먼트 구역화", "url": "https://www.deloitte.com/us/en/insights/industry/technology/technology-media-telecom-outlooks/sports-industry-outlook.html", "publishedAt": "2026.02.10", "source": "Deloitte Insights" },
-            { "title": "리테일테인먼트 2.0 — 팝업에서 순환형 경험 공간으로", "url": "https://www.madtimes.co.kr/news/articleView.html?idxno=26262", "publishedAt": "2026.03.18", "source": "매드타임스" },
-            { "title": "편의점 PB 프리미엄화 가속", "url": "https://www.ydmnews.co.kr", "publishedAt": "2026.04.17", "source": "유통경제신문" }
+          "title": "소비자 분화의 가속화 — 대중 트렌드의 소멸과 초개인화의 부상",
+          "desc": "유튜브 '인기 급상승' 폐지가 상징하듯 단일 메가 트렌드가 사라지고 나노 트렌드가 부상하고 있다. 픽셀 라이프(미세한 취향), 필코노미(기분 기반 소비), 1% 팬덤이 시장을 움직이는 팬본주의가 소비 시장을 재편하고 있다.",
+          "keywords": [
+            "나노 트렌드",
+            "픽셀 라이프",
+            "필코노미",
+            "팬본주의",
+            "초개인화"
           ],
-          "editorNote": "경기장을 연중 운영되는 콘텐츠 플랫폼으로 전환하는 것이 프로스포츠 수익 다각화의 핵심 과제다. 국내외 사례를 이번 호에서 집중 조명할 필요가 있다."
+          "relatedLinks": [
+            {
+              "title": "인크로스 2026 디지털 마케팅 트렌드 — 크리에이터 채널 단위의 세밀한 접근",
+              "url": "https://ditoday.com/%EC%9D%B8%ED%81%AC%EB%A1%9C%EC%8A%A4-2026-%EB%94%94%EC%A7%80%ED%84%B8-%EB%A7%88%EC%BC%80%ED%8C%85-%ED%8A%B8%EB%A0%8C%EB%93%9C-%EB%A6%AC%ED%8F%AC%ED%8A%B8-%EB%B0%9C%ED%91%9C/",
+              "publishedAt": "2025.12.02",
+              "source": "인크로스 / 디지털인사이트"
+            },
+            {
+              "title": "메타코리아 2026 소셜 트렌드 — 텍스트힙·AI 크리에이터·라이브커머스",
+              "url": "https://blog.highoutputclub.com/meta-business-trends-2026/",
+              "publishedAt": "2026.02.15",
+              "source": "메타코리아"
+            },
+            {
+              "title": "오픈애즈 2026 마케팅 트렌드 10 — 픽셀 라이프·필코노미·AX 조직",
+              "url": "https://openads.co.kr/content/contentDetail?contsId=18383",
+              "publishedAt": "2026.01.09",
+              "source": "오픈애즈"
+            },
+            {
+              "title": "BoF-McKinsey State of Fashion 2026 — Gen Z의 이중성: 검소함과 럭셔리 소비의 공존",
+              "url": "https://www.mckinsey.com/industries/retail/our-insights/state-of-fashion",
+              "publishedAt": "2025.11.17",
+              "source": "McKinsey / BoF"
+            }
+          ],
+          "editorNote": "프로스포츠 팬도 더 이상 단일한 집단이 아니다. 직관파, 미디어 소비파, 굿즈 수집파, 데이터 분석파 등 팬 유형이 세분화됐다. 각 팬 유형에 맞는 초개인화 경험을 설계하는 것이 2026년 프로스포츠 마케팅의 핵심 과제이며 PROSVIEW 칼럼의 중요한 소재가 된다."
         }
       ]
     }

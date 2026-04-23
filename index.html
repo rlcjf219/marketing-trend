@@ -458,8 +458,10 @@ async function fetchData(){
 function init(){
   const tmonths=D.trends||[];
   const amonths=D.archive||[];
-  S.trendsMonth=tmonths.length?tmonths[tmonths.length-1].monthKey:null;
-  S.archiveMonth=amonths.length?amonths[amonths.length-1].monthKey:null;
+  const activeT=tmonths.find(m=>m.items&&m.items.length>0);
+  const activeA=amonths.find(m=>m.items&&m.items.length>0);
+  S.trendsMonth=activeT?activeT.monthKey:null;
+  S.archiveMonth=activeA?activeA.monthKey:null;
   S.quarter=(D.quarterly||[]).length?D.quarterly[D.quarterly.length-1].quarterKey:null;
   buildCatPills('trends');
   buildCatPills('archive');
@@ -488,8 +490,17 @@ function showPage(page){
 function buildMonthSelect(tab){
   const arr=[...(tab==='trends'?D.trends:D.archive)||[]].reverse();
   const el=document.getElementById(tab+'-month-select');
-  el.innerHTML=arr.map(m=>`<option value="${m.monthKey}">${m.monthLabel}</option>`).join('');
-  el.value=tab==='trends'?S.trendsMonth:S.archiveMonth;
+  el.innerHTML=arr.map(m=>{
+    const label=m.dateRange?`${m.monthLabel} (${m.dateRange})`:m.monthLabel;
+    const isEmpty=!m.items||m.items.length===0;
+    return `<option value="${m.monthKey}" ${isEmpty?'disabled':''}>
+      ${label}${isEmpty?' — 수집 예정':''}
+    </option>`;
+  }).join('');
+  // 첫 번째 활성 아이템 선택
+  const active=arr.find(m=>m.items&&m.items.length>0);
+  const defaultKey=tab==='trends'?S.trendsMonth:S.archiveMonth;
+  el.value=defaultKey||( active?active.monthKey:'');
   updateMonthMeta(tab);
 }
 function onTrendsMonthChange(){S.trendsMonth=document.getElementById('trends-month-select').value;updateMonthMeta('trends');renderTrends()}
