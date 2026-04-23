@@ -12,6 +12,10 @@
 <title>Marketing Trend</title>
 <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Pretendard:wght@300;400;500;600;700;800;900&display=swap" rel="stylesheet">
 <style>
+@font-face {
+  font-family: 'Bebas Neue';
+  font-display: swap;
+}
 :root {
   --bg: #0a0a0f;
   --surface: #111118;
@@ -56,16 +60,17 @@ nav{
 .nav-tab.active{background:var(--surface3);color:var(--text);border:1px solid var(--border2)}
 
 /* ── PAGES ── */
-.page{display:none;padding-top:calc(var(--nav-h)+28px);min-height:100vh}
+.page{display:none;padding-top:calc(var(--nav-h)+52px);min-height:100vh}
 .page.active{display:block}
 .container{max-width:1280px;margin:0 auto;padding:0 20px 80px}
 
 /* ── PAGE HEADER ── */
 .page-header{margin-bottom:22px}
 .page-title{
-  font-family:'Bebas Neue',sans-serif;
+  font-family:'Bebas Neue','Arial Black','Impact',sans-serif;
   font-size:clamp(28px,5.5vw,44px);
   color:var(--text);line-height:1.1;letter-spacing:2px;text-transform:uppercase;
+  font-weight:900;
 }
 .page-subtitle{font-size:13px;color:var(--text2);margin-top:5px;line-height:1.6}
 
