@@ -6,257 +6,292 @@
 <meta name="theme-color" content="#0a0a0f">
 <meta name="apple-mobile-web-app-capable" content="yes">
 <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
-<meta name="apple-mobile-web-app-title" content="MKT Trend">
-<meta name="application-name" content="MKT Trend">
-<title>Marketing Trend</title>
+<meta name="apple-mobile-web-app-title" content="마케팅 트렌드">
 <link rel="manifest" href="/manifest.json">
 <link rel="apple-touch-icon" href="/icon-192.png">
-<link rel="icon" type="image/png" sizes="192x192" href="/icon-192.png">
-<link rel="preconnect" href="https://fonts.googleapis.com">
+<title>Marketing Trend</title>
 <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Pretendard:wght@300;400;500;600;700;800;900&display=swap" rel="stylesheet">
 <style>
-  :root {
-    --bg: #0a0a0f;
-    --surface: #13131a;
-    --surface2: #1c1c27;
-    --border: rgba(255,255,255,0.07);
-    --border2: rgba(255,255,255,0.13);
-    --text: #f0f0f5;
-    --text2: rgba(240,240,245,0.55);
-    --text3: rgba(240,240,245,0.28);
-    --accent: #c8a96e;
-    --accent2: #e8c98e;
-    --nav-h: 62px;
-    --radius: 16px;
-  }
-  * { box-sizing: border-box; margin: 0; padding: 0; -webkit-tap-highlight-color: transparent; }
-  html { scroll-behavior: smooth; }
-  body { font-family: 'Pretendard', -apple-system, sans-serif; background: var(--bg); color: var(--text); min-height: 100vh; overflow-x: hidden; }
+:root {
+  --bg: #0a0a0f;
+  --surface: #111118;
+  --surface2: #1a1a24;
+  --surface3: #222230;
+  --border: rgba(255,255,255,0.06);
+  --border2: rgba(255,255,255,0.11);
+  --text: #eeeef5;
+  --text2: rgba(238,238,245,0.52);
+  --text3: rgba(238,238,245,0.25);
+  --gold: #c8a96e;
+  --gold2: #e8c98e;
+  --gold-dim: rgba(200,169,110,0.12);
+  --nav-h: 60px;
+  --tab-h: 48px;
+  --r: 14px;
+}
+*{box-sizing:border-box;margin:0;padding:0;-webkit-tap-highlight-color:transparent}
+html{scroll-behavior:smooth}
+body{font-family:'Pretendard',-apple-system,sans-serif;background:var(--bg);color:var(--text);min-height:100vh;overflow-x:hidden}
 
-  /* NAV */
-  nav {
-    position: fixed; top: 0; left: 0; right: 0; z-index: 200;
-    height: var(--nav-h);
-    background: rgba(10,10,15,0.88);
-    backdrop-filter: blur(24px);
-    -webkit-backdrop-filter: blur(24px);
-    border-bottom: 1px solid var(--border);
-    display: flex; align-items: center; padding: 0 20px; gap: 12px;
-  }
-  .nav-logo {
-    font-family: 'Bebas Neue', sans-serif;
-    font-size: 19px; color: var(--accent);
-    letter-spacing: 3px; margin-right: auto; flex-shrink: 0;
-  }
-  .nav-tabs { display: flex; gap: 2px; background: var(--surface); border-radius: 12px; padding: 4px; }
-  .nav-tab {
-    padding: 7px 13px; border-radius: 9px; border: none;
-    background: transparent; color: var(--text2);
-    font-size: 12px; font-weight: 600; cursor: pointer;
-    transition: all 0.2s; font-family: 'Pretendard', sans-serif; white-space: nowrap;
-  }
-  .nav-tab.active { background: var(--surface2); color: var(--text); border: 1px solid var(--border2); }
+/* ── NAV ── */
+nav{
+  position:fixed;top:0;left:0;right:0;z-index:300;
+  height:var(--nav-h);
+  background:rgba(10,10,15,0.92);
+  backdrop-filter:blur(24px);-webkit-backdrop-filter:blur(24px);
+  border-bottom:1px solid var(--border);
+  display:flex;align-items:center;padding:0 20px;gap:12px;
+}
+.nav-logo{
+  font-family:'Bebas Neue',sans-serif;font-size:18px;
+  color:var(--gold);letter-spacing:3px;margin-right:auto;flex-shrink:0;
+}
+.nav-tabs{display:flex;gap:2px;background:var(--surface2);border-radius:10px;padding:3px}
+.nav-tab{
+  padding:6px 11px;border-radius:8px;border:none;
+  background:transparent;color:var(--text3);
+  font-size:11px;font-weight:700;cursor:pointer;
+  transition:all 0.2s;font-family:'Pretendard',sans-serif;white-space:nowrap;letter-spacing:0.3px;
+}
+.nav-tab.active{background:var(--surface3);color:var(--text);border:1px solid var(--border2)}
 
-  /* PAGES */
-  .page { display: none; padding-top: calc(var(--nav-h) + 28px); min-height: 100vh; }
-  .page.active { display: block; }
-  .container { max-width: 1280px; margin: 0 auto; padding: 0 20px 80px; }
+/* ── PAGES ── */
+.page{display:none;padding-top:calc(var(--nav-h)+28px);min-height:100vh}
+.page.active{display:block}
+.container{max-width:1280px;margin:0 auto;padding:0 20px 80px}
 
-  /* PAGE HEADER */
-  .page-header { margin-bottom: 24px; }
-  .page-title {
-    font-family: 'Bebas Neue', sans-serif;
-    font-size: clamp(30px, 6vw, 46px);
-    color: var(--text); line-height: 1.1;
-    letter-spacing: 2.5px; text-transform: uppercase;
-  }
-  .page-subtitle { font-size: 13px; color: var(--text2); margin-top: 6px; line-height: 1.6; }
+/* ── PAGE HEADER ── */
+.page-header{margin-bottom:22px}
+.page-title{
+  font-family:'Bebas Neue',sans-serif;
+  font-size:clamp(28px,5.5vw,44px);
+  color:var(--text);line-height:1.1;letter-spacing:2px;text-transform:uppercase;
+}
+.page-subtitle{font-size:13px;color:var(--text2);margin-top:5px;line-height:1.6}
 
-  /* WEEK BAR */
-  .week-bar { display: flex; align-items: center; gap: 10px; margin-bottom: 18px; flex-wrap: wrap; }
-  .week-select {
-    appearance: none; background: var(--surface);
-    border: 1px solid var(--border2); color: var(--text);
-    font-family: 'Pretendard', sans-serif; font-size: 13px; font-weight: 600;
-    padding: 10px 36px 10px 14px; border-radius: 10px; cursor: pointer;
-    background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='12' height='12' viewBox='0 0 24 24' fill='none' stroke='rgba(240,240,245,0.35)' stroke-width='2'%3E%3Cpath d='M6 9l6 6 6-6'/%3E%3C/svg%3E");
-    background-repeat: no-repeat; background-position: right 12px center; min-width: 190px;
-  }
-  .week-range-badge {
-    font-size: 12px; color: var(--accent);
-    background: rgba(200,169,110,0.08);
-    border: 1px solid rgba(200,169,110,0.18);
-    padding: 6px 12px; border-radius: 8px; font-weight: 600;
-  }
-  .trend-count { font-size: 12px; color: var(--text3); margin-left: auto; }
+/* ── MONTH SELECTOR ── */
+.month-bar{display:flex;align-items:center;gap:10px;margin-bottom:18px;flex-wrap:wrap}
+.month-select{
+  appearance:none;background:var(--surface);
+  border:1px solid var(--border2);color:var(--text);
+  font-family:'Pretendard',sans-serif;font-size:13px;font-weight:600;
+  padding:9px 34px 9px 13px;border-radius:10px;cursor:pointer;
+  background-image:url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='11' height='11' viewBox='0 0 24 24' fill='none' stroke='rgba(238,238,245,0.32)' stroke-width='2'%3E%3Cpath d='M6 9l6 6 6-6'/%3E%3C/svg%3E");
+  background-repeat:no-repeat;background-position:right 11px center;min-width:160px;
+}
+.collected-badge{
+  font-size:11px;color:var(--text3);
+  background:var(--surface);border:1px solid var(--border);
+  padding:5px 11px;border-radius:7px;
+}
+.count-badge{font-size:12px;color:var(--text3);margin-left:auto}
 
-  /* FILTERS */
-  .filter-row { display: flex; gap: 8px; margin-bottom: 14px; flex-wrap: wrap; align-items: center; }
-  .region-toggle { display: flex; background: var(--surface); border-radius: 10px; padding: 3px; gap: 2px; flex-shrink: 0; }
-  .region-btn {
-    padding: 6px 13px; border-radius: 8px; border: none;
-    background: transparent; color: var(--text3);
-    font-size: 12px; font-weight: 700; cursor: pointer;
-    transition: all 0.2s; font-family: 'Pretendard', sans-serif;
-  }
-  .region-btn.active { background: var(--surface2); color: var(--text); border: 1px solid var(--border2); }
-  .cat-pill {
-    padding: 6px 13px; border-radius: 20px;
-    border: 1.5px solid var(--border);
-    background: transparent; color: var(--text3);
-    font-size: 11px; font-weight: 700; cursor: pointer;
-    transition: all 0.2s; font-family: 'Pretendard', sans-serif; letter-spacing: 0.3px;
-  }
-  .cat-pill.active { color: #fff; }
+/* ── FILTERS ── */
+.filter-row{display:flex;gap:7px;margin-bottom:14px;flex-wrap:wrap;align-items:center}
+.region-toggle{display:flex;background:var(--surface);border-radius:9px;padding:3px;gap:2px;flex-shrink:0}
+.region-btn{
+  padding:5px 12px;border-radius:7px;border:none;
+  background:transparent;color:var(--text3);
+  font-size:11px;font-weight:700;cursor:pointer;
+  transition:all 0.2s;font-family:'Pretendard',sans-serif;
+}
+.region-btn.active{background:var(--surface2);color:var(--text);border:1px solid var(--border2)}
+.cat-pill{
+  padding:5px 12px;border-radius:20px;
+  border:1.5px solid var(--border);background:transparent;color:var(--text3);
+  font-size:11px;font-weight:700;cursor:pointer;
+  transition:all 0.2s;font-family:'Pretendard',sans-serif;letter-spacing:0.2px;
+}
+.cat-pill.active{color:#fff}
 
-  /* TREND GRID */
-  .trend-grid { display: grid; grid-template-columns: repeat(auto-fill, minmax(320px, 1fr)); gap: 16px; }
+/* ── CARD GRID ── */
+.card-grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(310px,1fr));gap:15px}
 
-  /* TREND CARD */
-  .trend-card {
-    background: var(--surface); border: 1px solid var(--border);
-    border-radius: var(--radius); padding: 20px;
-    display: flex; flex-direction: column; gap: 12px;
-    transition: transform 0.25s ease, border-color 0.25s ease, background 0.25s ease;
-    position: relative; overflow: hidden;
-    animation: cardIn 0.4s ease both;
-  }
-  .trend-card::before {
-    content: ''; position: absolute; top: 0; left: 0; right: 0;
-    height: 2px; background: var(--cat-color, var(--accent)); opacity: 0.55;
-  }
-  @keyframes cardIn { from { opacity:0; transform:translateY(14px); } to { opacity:1; transform:translateY(0); } }
-  .trend-card:hover { transform: translateY(-3px); border-color: var(--border2); background: var(--surface2); }
+/* ── CARD ── */
+.card{
+  background:var(--surface);border:1px solid var(--border);
+  border-radius:var(--r);padding:18px 20px;
+  display:flex;flex-direction:column;gap:11px;
+  transition:transform 0.22s ease,border-color 0.22s ease,background 0.22s ease;
+  position:relative;overflow:hidden;
+  animation:cardIn 0.38s ease both;
+}
+.card::before{
+  content:'';position:absolute;top:0;left:0;right:0;
+  height:2px;background:var(--cat-color,var(--gold));opacity:0.5;
+}
+@keyframes cardIn{from{opacity:0;transform:translateY(12px)}to{opacity:1;transform:translateY(0)}}
+.card:hover{transform:translateY(-3px);border-color:var(--border2);background:var(--surface2)}
 
-  .card-top { display: flex; align-items: flex-start; justify-content: space-between; gap: 8px; }
-  .card-badges { display: flex; gap: 6px; flex-wrap: wrap; flex: 1; }
-  .badge { font-size: 10px; font-weight: 700; padding: 3px 9px; border-radius: 20px; letter-spacing: 0.5px; }
-  .badge-cat { background: rgba(255,255,255,0.05); color: var(--cat-color, var(--text2)); border: 1px solid rgba(255,255,255,0.09); }
-  .badge-kr { background: rgba(239,68,68,0.1); color: #f87171; border: 1px solid rgba(239,68,68,0.2); }
-  .badge-global { background: rgba(59,130,246,0.1); color: #60a5fa; border: 1px solid rgba(59,130,246,0.2); }
+.card-top{display:flex;align-items:flex-start;justify-content:space-between;gap:8px}
+.card-badges{display:flex;gap:5px;flex-wrap:wrap;flex:1}
+.badge{font-size:10px;font-weight:700;padding:3px 8px;border-radius:20px;letter-spacing:0.4px}
+.badge-cat{background:rgba(255,255,255,0.05);color:var(--cat-color,var(--text2));border:1px solid rgba(255,255,255,0.08)}
+.badge-kr{background:rgba(239,68,68,0.10);color:#f87171;border:1px solid rgba(239,68,68,0.18)}
+.badge-global{background:rgba(59,130,246,0.10);color:#60a5fa;border:1px solid rgba(59,130,246,0.18)}
+.badge-pick{background:rgba(200,169,110,0.12);color:var(--gold);border:1px solid rgba(200,169,110,0.2)}
 
-  .bookmark-btn {
-    background: none; border: none; cursor: pointer;
-    font-size: 18px; line-height: 1; transition: transform 0.2s;
-    padding: 2px; flex-shrink: 0; opacity: 0.4;
-  }
-  .bookmark-btn:hover { transform: scale(1.2); opacity: 1; }
-  .bookmark-btn.on { opacity: 1; }
+.bm-btn{
+  background:none;border:none;cursor:pointer;
+  font-size:17px;line-height:1;transition:transform 0.18s,opacity 0.18s;
+  padding:2px 4px;flex-shrink:0;opacity:0.35;color:var(--gold2);
+}
+.bm-btn:hover{transform:scale(1.2);opacity:0.8}
+.bm-btn.on{opacity:1}
 
-  .card-headline { font-size: 15px; font-weight: 800; color: var(--text); line-height: 1.5; letter-spacing: -0.3px; }
-  .card-summary { font-size: 13px; color: var(--text2); line-height: 1.75; }
-  .card-tip {
-    background: rgba(255,255,255,0.025);
-    border: 1px solid var(--border);
-    border-left: 3px solid var(--cat-color, var(--accent));
-    border-radius: 10px; padding: 11px 13px;
-    display: flex; gap: 8px; align-items: flex-start;
-  }
-  .tip-icon { font-size: 13px; flex-shrink: 0; margin-top: 1px; }
-  .tip-text { font-size: 12px; color: var(--text2); line-height: 1.65; font-weight: 500; }
-  .card-footer { margin-top: auto; }
-  .source-link {
-    display: inline-flex; align-items: center; gap: 5px;
-    font-size: 11px; color: var(--text3); text-decoration: none;
-    padding: 5px 10px; border-radius: 7px; border: 1px solid var(--border);
-    transition: all 0.2s;
-  }
-  .source-link:hover { color: var(--accent); border-color: rgba(200,169,110,0.25); background: rgba(200,169,110,0.05); }
+.card-date{font-size:11px;color:var(--text3);display:flex;align-items:center;gap:4px}
+.card-headline{font-size:14px;font-weight:800;color:var(--text);line-height:1.5;letter-spacing:-0.2px}
+.card-summary{font-size:12.5px;color:var(--text2);line-height:1.75}
+.card-tip{
+  background:rgba(255,255,255,0.025);
+  border:1px solid var(--border);
+  border-left:3px solid var(--cat-color,var(--gold));
+  border-radius:9px;padding:10px 12px;
+  display:flex;gap:7px;align-items:flex-start;
+}
+.tip-icon{font-size:12px;flex-shrink:0;margin-top:1px}
+.tip-text{font-size:12px;color:var(--text2);line-height:1.65;font-weight:500}
+.card-footer{margin-top:auto;display:flex;align-items:center;gap:8px}
+.pick-reason{
+  font-size:11px;color:var(--gold);opacity:0.75;
+  flex:1;line-height:1.4;
+  display:-webkit-box;-webkit-line-clamp:1;-webkit-box-orient:vertical;overflow:hidden;
+}
+.source-link{
+  display:inline-flex;align-items:center;gap:4px;
+  font-size:11px;color:var(--text3);text-decoration:none;
+  padding:4px 9px;border-radius:7px;border:1px solid var(--border);
+  transition:all 0.18s;flex-shrink:0;white-space:nowrap;
+}
+.source-link:hover{color:var(--gold);border-color:rgba(200,169,110,0.22);background:var(--gold-dim)}
 
-  /* EMPTY / LOADING */
-  .empty-state { grid-column: 1/-1; text-align: center; padding: 80px 20px; color: var(--text3); }
-  .empty-icon { font-size: 44px; margin-bottom: 14px; opacity: 0.35; }
-  .loading-spinner {
-    display: flex; align-items: center; justify-content: center;
-    gap: 10px; padding: 60px 20px; color: var(--text3); font-size: 14px;
-  }
-  .spinner {
-    width: 20px; height: 20px; border: 2px solid var(--border2);
-    border-top-color: var(--accent); border-radius: 50%;
-    animation: spin 0.7s linear infinite;
-  }
-  @keyframes spin { to { transform: rotate(360deg); } }
+/* ── EMPTY / LOADING ── */
+.empty{grid-column:1/-1;text-align:center;padding:70px 20px;color:var(--text3)}
+.empty-icon{font-size:40px;margin-bottom:12px;opacity:0.3}
+.loading{display:flex;align-items:center;justify-content:center;gap:9px;padding:60px;color:var(--text3);font-size:13px}
+.spinner{width:18px;height:18px;border:2px solid var(--border2);border-top-color:var(--gold);border-radius:50%;animation:spin 0.7s linear infinite}
+@keyframes spin{to{transform:rotate(360deg)}}
 
-  /* BOOKMARK PAGE */
-  .bm-empty { text-align: center; padding: 80px 20px; color: var(--text3); }
-  .bm-week-group { margin-bottom: 32px; }
-  .bm-week-label {
-    font-family: 'Bebas Neue', sans-serif;
-    font-size: 13px; letter-spacing: 2px; color: var(--text3);
-    margin-bottom: 14px; padding-bottom: 10px;
-    border-bottom: 1px solid var(--border);
-  }
+/* ── QUARTERLY ── */
+.q-select-row{margin-bottom:22px}
+.q-select{
+  appearance:none;background:var(--surface);
+  border:1px solid var(--border2);color:var(--text);
+  font-family:'Pretendard',sans-serif;font-size:13px;font-weight:600;
+  padding:9px 34px 9px 13px;border-radius:10px;cursor:pointer;
+  background-image:url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='11' height='11' viewBox='0 0 24 24' fill='none' stroke='rgba(238,238,245,0.32)' stroke-width='2'%3E%3Cpath d='M6 9l6 6 6-6'/%3E%3C/svg%3E");
+  background-repeat:no-repeat;background-position:right 11px center;
+}
+.q-meta{
+  display:flex;gap:14px;flex-wrap:wrap;
+  background:var(--surface);border:1px solid var(--border);
+  border-radius:var(--r);padding:16px 20px;margin-bottom:22px;
+}
+.q-meta-item{flex:1;min-width:110px}
+.q-meta-label{font-size:10px;font-weight:700;color:var(--text3);letter-spacing:1.8px;text-transform:uppercase;margin-bottom:4px}
+.q-meta-value{font-size:13px;font-weight:700;color:var(--text)}
+.q-section-title{
+  font-family:'Bebas Neue',sans-serif;font-size:20px;letter-spacing:2px;
+  color:var(--text);margin-bottom:14px;padding-bottom:11px;
+  border-bottom:1px solid var(--border);text-transform:uppercase;
+}
+.theme-grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(270px,1fr));gap:14px}
+.theme-card{
+  background:var(--surface);border:1px solid var(--border);
+  border-radius:var(--r);padding:20px;
+  transition:all 0.22s;cursor:pointer;position:relative;overflow:hidden;
+}
+.theme-card::after{
+  content:'';position:absolute;top:-20px;right:-20px;
+  width:80px;height:80px;border-radius:50%;
+  background:radial-gradient(circle,rgba(200,169,110,0.07) 0%,transparent 70%);
+}
+.theme-card:hover{border-color:rgba(200,169,110,0.22);background:var(--surface2);transform:translateY(-2px)}
+.theme-rank{font-family:'Bebas Neue',sans-serif;font-size:44px;color:rgba(200,169,110,0.12);line-height:1;margin-bottom:8px;letter-spacing:2px}
+.theme-title{font-size:16px;font-weight:800;color:var(--text);line-height:1.4;margin-bottom:8px;letter-spacing:-0.2px}
+.theme-desc{font-size:12.5px;color:var(--text2);line-height:1.7;margin-bottom:12px;
+  display:-webkit-box;-webkit-line-clamp:3;-webkit-box-orient:vertical;overflow:hidden}
+.theme-kws{display:flex;flex-wrap:wrap;gap:5px;margin-bottom:14px}
+.theme-kw{font-size:10px;font-weight:700;padding:3px 9px;border-radius:20px;background:var(--gold-dim);color:var(--gold);border:1px solid rgba(200,169,110,0.13);letter-spacing:0.3px}
+.theme-link-count{font-size:11px;color:var(--text3);display:flex;align-items:center;gap:5px}
 
-  /* QUARTERLY */
-  .quarter-select {
-    appearance: none; background: var(--surface);
-    border: 1px solid var(--border2); color: var(--text);
-    font-family: 'Pretendard', sans-serif; font-size: 13px; font-weight: 600;
-    padding: 10px 36px 10px 14px; border-radius: 10px; cursor: pointer;
-    background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='12' height='12' viewBox='0 0 24 24' fill='none' stroke='rgba(240,240,245,0.35)' stroke-width='2'%3E%3Cpath d='M6 9l6 6 6-6'/%3E%3C/svg%3E");
-    background-repeat: no-repeat; background-position: right 12px center;
-    margin-bottom: 24px;
-  }
-  .q-meta {
-    display: flex; gap: 16px; flex-wrap: wrap;
-    background: var(--surface); border: 1px solid var(--border);
-    border-radius: var(--radius); padding: 18px 22px; margin-bottom: 24px;
-  }
-  .q-meta-item { flex: 1; min-width: 120px; }
-  .q-meta-label { font-size: 10px; font-weight: 700; color: var(--text3); letter-spacing: 2px; text-transform: uppercase; margin-bottom: 5px; }
-  .q-meta-value { font-size: 14px; font-weight: 700; color: var(--text); }
-  .q-section-title {
-    font-family: 'Bebas Neue', sans-serif;
-    font-size: 22px; letter-spacing: 2px; color: var(--text);
-    margin-bottom: 16px; padding-bottom: 12px;
-    border-bottom: 1px solid var(--border); text-transform: uppercase;
-  }
-  .theme-grid { display: grid; grid-template-columns: repeat(auto-fill, minmax(280px, 1fr)); gap: 16px; }
-  .theme-card {
-    background: var(--surface); border: 1px solid var(--border);
-    border-radius: var(--radius); padding: 22px;
-    transition: all 0.25s; position: relative; overflow: hidden;
-  }
-  .theme-card::after {
-    content: ''; position: absolute; top: -30px; right: -30px;
-    width: 100px; height: 100px; border-radius: 50%;
-    background: radial-gradient(circle, rgba(200,169,110,0.07) 0%, transparent 70%);
-  }
-  .theme-card:hover { border-color: rgba(200,169,110,0.22); background: var(--surface2); transform: translateY(-2px); }
-  .theme-rank {
-    font-family: 'Bebas Neue', sans-serif; font-size: 52px;
-    color: rgba(200,169,110,0.13); line-height: 1; margin-bottom: 10px; letter-spacing: 2px;
-  }
-  .theme-title { font-size: 17px; font-weight: 800; color: var(--text); line-height: 1.4; margin-bottom: 10px; letter-spacing: -0.3px; }
-  .theme-desc { font-size: 13px; color: var(--text2); line-height: 1.7; margin-bottom: 14px; }
-  .theme-kws { display: flex; flex-wrap: wrap; gap: 6px; }
-  .theme-kw {
-    font-size: 11px; font-weight: 600; padding: 4px 10px; border-radius: 20px;
-    background: rgba(200,169,110,0.07); color: var(--accent);
-    border: 1px solid rgba(200,169,110,0.13); letter-spacing: 0.3px;
-  }
-  .no-data {
-    background: var(--surface); border: 1px dashed var(--border2);
-    border-radius: var(--radius); padding: 32px; text-align: center;
-    color: var(--text3); font-size: 14px; line-height: 1.7;
-  }
+/* ── MODAL ── */
+.modal-overlay{
+  position:fixed;inset:0;z-index:500;
+  background:rgba(5,5,10,0.88);
+  backdrop-filter:blur(12px);-webkit-backdrop-filter:blur(12px);
+  display:none;align-items:center;justify-content:center;padding:20px;
+  animation:fadeIn 0.2s ease;
+}
+.modal-overlay.open{display:flex}
+@keyframes fadeIn{from{opacity:0}to{opacity:1}}
+.modal{
+  background:var(--surface);border:1px solid var(--border2);
+  border-radius:20px;width:100%;max-width:680px;
+  max-height:88vh;overflow-y:auto;
+  animation:slideUp 0.25s ease;
+}
+@keyframes slideUp{from{opacity:0;transform:translateY(20px)}to{opacity:1;transform:translateY(0)}}
+.modal-header{
+  padding:24px 24px 0;
+  position:sticky;top:0;
+  background:var(--surface);border-bottom:1px solid var(--border);
+  padding-bottom:16px;z-index:10;
+}
+.modal-close{
+  float:right;background:var(--surface2);border:1px solid var(--border2);
+  color:var(--text2);font-size:16px;cursor:pointer;
+  border-radius:8px;padding:4px 10px;transition:all 0.18s;font-family:'Pretendard',sans-serif;
+}
+.modal-close:hover{color:var(--text);background:var(--surface3)}
+.modal-rank{font-family:'Bebas Neue',sans-serif;font-size:13px;color:var(--gold);letter-spacing:2px;margin-bottom:6px}
+.modal-title{font-size:20px;font-weight:800;color:var(--text);line-height:1.3;margin-bottom:10px;letter-spacing:-0.3px}
+.modal-body{padding:20px 24px 24px}
+.modal-desc{font-size:14px;color:var(--text2);line-height:1.8;margin-bottom:20px}
+.modal-kws{display:flex;flex-wrap:wrap;gap:6px;margin-bottom:20px}
+.modal-editor{
+  background:var(--gold-dim);border:1px solid rgba(200,169,110,0.15);
+  border-radius:10px;padding:14px 16px;margin-bottom:22px;
+}
+.modal-editor-label{font-size:10px;font-weight:700;color:var(--gold);letter-spacing:2px;text-transform:uppercase;margin-bottom:6px}
+.modal-editor-text{font-size:13px;color:var(--text2);line-height:1.75}
+.modal-links-title{
+  font-family:'Bebas Neue',sans-serif;font-size:15px;letter-spacing:1.5px;
+  color:var(--text);margin-bottom:12px;text-transform:uppercase;
+}
+.modal-link-item{
+  display:flex;flex-direction:column;gap:3px;
+  padding:12px 14px;border-radius:10px;
+  border:1px solid var(--border);background:var(--surface2);
+  margin-bottom:8px;text-decoration:none;
+  transition:all 0.18s;
+}
+.modal-link-item:hover{border-color:rgba(200,169,110,0.22);background:var(--surface3)}
+.modal-link-title{font-size:13px;font-weight:700;color:var(--text);line-height:1.4}
+.modal-link-meta{font-size:11px;color:var(--text3);display:flex;gap:8px;align-items:center}
+.modal-link-arrow{color:var(--gold);font-size:11px;margin-left:auto;flex-shrink:0}
 
-  /* FOOTER */
-  footer {
-    background: var(--surface); border-top: 1px solid var(--border);
-    padding: 22px 20px; text-align: center;
-  }
-  .footer-logo { font-family: 'Bebas Neue', sans-serif; font-size: 13px; color: var(--accent); letter-spacing: 3px; margin-bottom: 5px; }
-  .footer-copy { font-size: 11px; color: var(--text3); }
+/* ── BOOKMARK ── */
+.bm-empty{text-align:center;padding:70px 20px;color:var(--text3)}
+.bm-group{margin-bottom:28px}
+.bm-group-label{
+  font-family:'Bebas Neue',sans-serif;font-size:12px;letter-spacing:2px;color:var(--text3);
+  margin-bottom:12px;padding-bottom:9px;border-bottom:1px solid var(--border);
+}
 
-  /* MOBILE */
-  @media (max-width: 640px) {
-    .nav-tab { padding: 7px 9px; font-size: 11px; }
-    .trend-grid { grid-template-columns: 1fr; }
-    .theme-grid { grid-template-columns: 1fr; }
-    .container { padding: 0 16px 80px; }
-    .week-select { min-width: 150px; }
-  }
+/* ── FOOTER ── */
+footer{background:var(--surface);border-top:1px solid var(--border);padding:20px;text-align:center}
+.footer-logo{font-family:'Bebas Neue',sans-serif;font-size:13px;color:var(--gold);letter-spacing:3px;margin-bottom:4px}
+.footer-copy{font-size:11px;color:var(--text3)}
+
+/* ── MOBILE ── */
+@media(max-width:640px){
+  .nav-tab{padding:6px 8px;font-size:10px}
+  .card-grid{grid-template-columns:1fr}
+  .theme-grid{grid-template-columns:1fr}
+  .container{padding:0 14px 80px}
+  .modal{border-radius:16px}
+}
 </style>
 </head>
 <body>
@@ -264,56 +299,83 @@
 <nav>
   <div class="nav-logo">Marketing Trend</div>
   <div class="nav-tabs">
-    <button class="nav-tab active" onclick="showPage('dashboard')">트렌드</button>
+    <button class="nav-tab active" onclick="showPage('trends')">트렌드</button>
+    <button class="nav-tab" onclick="showPage('archive')">아카이브</button>
     <button class="nav-tab" onclick="showPage('quarterly')">분기 테마</button>
     <button class="nav-tab" onclick="showPage('bookmark')">북마크</button>
   </div>
 </nav>
 
-<!-- PAGE: DASHBOARD -->
-<div class="page active" id="page-dashboard">
+<!-- ══ PAGE: TRENDS ══ -->
+<div class="page active" id="page-trends">
   <div class="container">
     <div class="page-header">
-      <div class="page-title">주차별 마케팅 트렌드</div>
-      <div class="page-subtitle" id="dash-subtitle">데이터를 불러오는 중...</div>
+      <div class="page-title">월별 마케팅 트렌드</div>
+      <div class="page-subtitle" id="trends-subtitle">해당 월에 게시된 최신 마케팅 트렌드를 분야별로 탐색하세요</div>
     </div>
-    <div class="week-bar">
-      <select class="week-select" id="week-select" onchange="onWeekChange()"></select>
-      <div class="week-range-badge" id="week-range"></div>
-      <div class="trend-count" id="trend-count"></div>
+    <div class="month-bar">
+      <select class="month-select" id="trends-month-select" onchange="onTrendsMonthChange()"></select>
+      <div class="collected-badge" id="trends-collected"></div>
+      <div class="count-badge" id="trends-count"></div>
     </div>
     <div class="filter-row">
       <div class="region-toggle">
-        <button class="region-btn active" onclick="setRegion('ALL',this)">전체</button>
-        <button class="region-btn" onclick="setRegion('KR',this)">KR</button>
-        <button class="region-btn" onclick="setRegion('GLOBAL',this)">GLOBAL</button>
+        <button class="region-btn active" onclick="setRegion('trends','ALL',this)">전체</button>
+        <button class="region-btn" onclick="setRegion('trends','KR',this)">KR</button>
+        <button class="region-btn" onclick="setRegion('trends','GLOBAL',this)">GLOBAL</button>
       </div>
     </div>
-    <div class="filter-row" id="cat-pills"></div>
-    <div id="trend-grid" class="trend-grid">
-      <div class="loading-spinner"><div class="spinner"></div>트렌드 데이터 로딩 중...</div>
+    <div class="filter-row" id="trends-cat-pills"></div>
+    <div class="card-grid" id="trends-grid">
+      <div class="loading"><div class="spinner"></div>데이터 로딩 중...</div>
     </div>
   </div>
 </div>
 
-<!-- PAGE: QUARTERLY -->
+<!-- ══ PAGE: ARCHIVE ══ -->
+<div class="page" id="page-archive">
+  <div class="container">
+    <div class="page-header">
+      <div class="page-title">마케팅 이슈 아카이브</div>
+      <div class="page-subtitle" id="archive-subtitle">게시 시기에 관계없이 현재 트렌드에 부합하는 주요 아티클을 큐레이션했습니다</div>
+    </div>
+    <div class="month-bar">
+      <select class="month-select" id="archive-month-select" onchange="onArchiveMonthChange()"></select>
+      <div class="collected-badge" id="archive-collected"></div>
+      <div class="count-badge" id="archive-count"></div>
+    </div>
+    <div class="filter-row">
+      <div class="region-toggle">
+        <button class="region-btn active" onclick="setRegion('archive','ALL',this)">전체</button>
+        <button class="region-btn" onclick="setRegion('archive','KR',this)">KR</button>
+        <button class="region-btn" onclick="setRegion('archive','GLOBAL',this)">GLOBAL</button>
+      </div>
+    </div>
+    <div class="filter-row" id="archive-cat-pills"></div>
+    <div class="card-grid" id="archive-grid"></div>
+  </div>
+</div>
+
+<!-- ══ PAGE: QUARTERLY ══ -->
 <div class="page" id="page-quarterly">
   <div class="container">
     <div class="page-header">
       <div class="page-title">분기별 주요 테마</div>
-      <div class="page-subtitle">누적된 주간 트렌드를 기반으로 분기 대표 테마를 확인하세요</div>
+      <div class="page-subtitle">PROSVIEW 매거진 분기 칼럼 테마 후보를 확인하고 관련 아티클을 탐색하세요</div>
     </div>
-    <select class="quarter-select" id="quarter-select" onchange="renderQuarterly()"></select>
+    <div class="q-select-row">
+      <select class="q-select" id="q-select" onchange="renderQuarterly()"></select>
+    </div>
     <div id="quarterly-content"></div>
   </div>
 </div>
 
-<!-- PAGE: BOOKMARK -->
+<!-- ══ PAGE: BOOKMARK ══ -->
 <div class="page" id="page-bookmark">
   <div class="container">
     <div class="page-header">
       <div class="page-title">북마크</div>
-      <div class="page-subtitle">PROSVIEW 칼럼 기획에 참고할 트렌드를 모아보세요</div>
+      <div class="page-subtitle">PROSVIEW 칼럼 기획에 참고할 아티클을 모아보세요</div>
     </div>
     <div id="bookmark-content"></div>
   </div>
@@ -324,157 +386,200 @@
   <div class="footer-copy">© 2026 김기철. All rights reserved.</div>
 </footer>
 
+<!-- ══ MODAL ══ -->
+<div class="modal-overlay" id="theme-modal" onclick="closeModal(event)">
+  <div class="modal" id="modal-inner">
+    <div class="modal-header">
+      <button class="modal-close" onclick="closeModalDirect()">✕ 닫기</button>
+      <div class="modal-rank" id="modal-rank"></div>
+      <div class="modal-title" id="modal-title"></div>
+      <div class="theme-kws" id="modal-kws"></div>
+    </div>
+    <div class="modal-body">
+      <div class="modal-desc" id="modal-desc"></div>
+      <div class="modal-editor" id="modal-editor">
+        <div class="modal-editor-label">✏️ 편집자 노트</div>
+        <div class="modal-editor-text" id="modal-editor-text"></div>
+      </div>
+      <div class="modal-links-title">관련 아티클</div>
+      <div id="modal-links"></div>
+    </div>
+  </div>
+</div>
+
 <script>
 // ── CATEGORIES ──
 const CATS = [
-  { id:'all',     label:'전체',          color: null },
-  { id:'digital', label:'디지털/소셜',   color:'#8b5cf6' },
-  { id:'fashion', label:'패션/뷰티',     color:'#ec4899' },
-  { id:'sports',  label:'스포츠/엔터',   color:'#f97316' },
-  { id:'fnb',     label:'F&B/리테일',    color:'#22c55e' },
-  { id:'tech',    label:'테크/AI',       color:'#3b82f6' },
-  { id:'finance', label:'금융/핀테크',   color:'#06b6d4' },
-  { id:'health',  label:'헬스케어',      color:'#84cc16' },
-  { id:'travel',  label:'여행',          color:'#0ea5e9' },
-  { id:'media',   label:'미디어/콘텐츠', color:'#6366f1' },
-  { id:'b2b',     label:'B2B',           color:'#9ca3af' }
+  {id:'all',label:'전체',color:null},
+  {id:'digital',label:'디지털/소셜',color:'#8b5cf6'},
+  {id:'fashion',label:'패션/뷰티',color:'#ec4899'},
+  {id:'sports',label:'스포츠/엔터',color:'#f97316'},
+  {id:'fnb',label:'F&B/리테일',color:'#22c55e'},
+  {id:'tech',label:'테크/AI',color:'#3b82f6'},
+  {id:'finance',label:'금융/핀테크',color:'#06b6d4'},
+  {id:'health',label:'헬스케어',color:'#84cc16'},
+  {id:'travel',label:'여행',color:'#0ea5e9'},
+  {id:'media',label:'미디어/콘텐츠',color:'#6366f1'},
+  {id:'b2b',label:'B2B',color:'#9ca3af'}
 ];
-const catColor = id => (CATS.find(c=>c.id===id)||{}).color || '#9ca3af';
-const catLabel = id => (CATS.find(c=>c.id===id)||{}).label || id;
+const catColor = id=>(CATS.find(c=>c.id===id)||{}).color||'#9ca3af';
+const catLabel = id=>(CATS.find(c=>c.id===id)||{}).label||id;
 
 // ── STATE ──
-let appData = null;
-let state = { week: null, region: 'ALL', cat: 'all', page: 'dashboard', quarter: null };
+let D = null;
+let S = {
+  trendsMonth:null, trendsRegion:'ALL', trendsCat:'all',
+  archiveMonth:null, archiveRegion:'ALL', archiveCat:'all',
+  quarter:null, page:'trends'
+};
 
-// ── BOOKMARKS (localStorage) ──
-const BM_KEY = 'mt_bookmarks_v1';
-const loadBM = () => { try { return JSON.parse(localStorage.getItem(BM_KEY)) || []; } catch { return []; } };
-const saveBM = bm => localStorage.setItem(BM_KEY, JSON.stringify(bm));
+// ── BOOKMARKS ──
+const BM_KEY='mt_bm_v2';
+const loadBM=()=>{try{return JSON.parse(localStorage.getItem(BM_KEY))||[];}catch{return[]}};
+const saveBM=b=>localStorage.setItem(BM_KEY,JSON.stringify(b));
 
-// ── FETCH DATA ──
-async function fetchData() {
-  try {
-    const res = await fetch('./data.json?v=' + Date.now());
-    if (!res.ok) throw new Error('fetch failed');
-    appData = await res.json();
-    onDataLoaded();
-  } catch(e) {
-    document.getElementById('trend-grid').innerHTML =
-      `<div class="empty-state"><div class="empty-icon">⚠️</div><div>데이터를 불러올 수 없어요.<br>잠시 후 새로고침 해주세요.</div></div>`;
+// ── FETCH ──
+async function fetchData(){
+  try{
+    const r=await fetch('./data.json?v='+Date.now());
+    if(!r.ok)throw new Error();
+    D=await r.json();
+    init();
+  }catch{
+    document.getElementById('trends-grid').innerHTML=
+      '<div class="empty"><div class="empty-icon">⚠️</div>데이터를 불러올 수 없어요. 새로고침 해주세요.</div>';
   }
 }
 
-function onDataLoaded() {
-  const weeks = appData.weeks || [];
-  state.week = weeks.length ? weeks[weeks.length - 1].weekKey : null;
-  state.quarter = appData.quarterly?.length ? appData.quarterly[appData.quarterly.length - 1].quarterKey : null;
-  buildCatPills();
-  buildWeekSelect();
+function init(){
+  const tmonths=D.trends||[];
+  const amonths=D.archive||[];
+  S.trendsMonth=tmonths.length?tmonths[tmonths.length-1].monthKey:null;
+  S.archiveMonth=amonths.length?amonths[amonths.length-1].monthKey:null;
+  S.quarter=(D.quarterly||[]).length?D.quarterly[D.quarterly.length-1].quarterKey:null;
+  buildCatPills('trends');
+  buildCatPills('archive');
+  buildMonthSelect('trends');
+  buildMonthSelect('archive');
   buildQuarterSelect();
-  renderDashboard();
+  renderTrends();
+  renderArchive();
   renderQuarterly();
   renderBookmarks();
 }
 
 // ── NAV ──
-function showPage(page) {
-  state.page = page;
-  document.querySelectorAll('.page').forEach(p => p.classList.remove('active'));
-  document.querySelectorAll('.nav-tab').forEach(t => t.classList.remove('active'));
-  document.getElementById('page-' + page).classList.add('active');
-  const idx = { dashboard:0, quarterly:1, bookmark:2 };
+function showPage(page){
+  S.page=page;
+  document.querySelectorAll('.page').forEach(p=>p.classList.remove('active'));
+  document.querySelectorAll('.nav-tab').forEach(t=>t.classList.remove('active'));
+  document.getElementById('page-'+page).classList.add('active');
+  const idx={trends:0,archive:1,quarterly:2,bookmark:3};
   document.querySelectorAll('.nav-tab')[idx[page]].classList.add('active');
-  if (page === 'bookmark') renderBookmarks();
-  if (page === 'quarterly') renderQuarterly();
+  if(page==='bookmark')renderBookmarks();
+  if(page==='quarterly')renderQuarterly();
 }
 
-// ── WEEK SELECT ──
-function buildWeekSelect() {
-  const weeks = [...(appData.weeks||[])].reverse();
-  const sel = document.getElementById('week-select');
-  sel.innerHTML = weeks.map(w =>
-    `<option value="${w.weekKey}">${w.weekLabel} (${w.dateRange})</option>`
-  ).join('');
-  sel.value = state.week;
-  updateWeekMeta();
+// ── MONTH SELECT ──
+function buildMonthSelect(tab){
+  const arr=[...(tab==='trends'?D.trends:D.archive)||[]].reverse();
+  const el=document.getElementById(tab+'-month-select');
+  el.innerHTML=arr.map(m=>`<option value="${m.monthKey}">${m.monthLabel}</option>`).join('');
+  el.value=tab==='trends'?S.trendsMonth:S.archiveMonth;
+  updateMonthMeta(tab);
 }
-function onWeekChange() {
-  state.week = document.getElementById('week-select').value;
-  updateWeekMeta();
-  renderDashboard();
-}
-function updateWeekMeta() {
-  const wk = (appData.weeks||[]).find(w => w.weekKey === state.week);
-  if (!wk) return;
-  document.getElementById('week-range').textContent = '📅 ' + wk.dateRange + ' 기준';
-  document.getElementById('dash-subtitle').textContent =
-    `수집일: ${wk.collectedAt} · ${wk.weekLabel} 국내외 마케팅 트렌드`;
+function onTrendsMonthChange(){S.trendsMonth=document.getElementById('trends-month-select').value;updateMonthMeta('trends');renderTrends()}
+function onArchiveMonthChange(){S.archiveMonth=document.getElementById('archive-month-select').value;updateMonthMeta('archive');renderArchive()}
+function updateMonthMeta(tab){
+  const arr=tab==='trends'?D.trends:D.archive;
+  const mk=tab==='trends'?S.trendsMonth:S.archiveMonth;
+  const m=(arr||[]).find(x=>x.monthKey===mk);
+  if(!m)return;
+  document.getElementById(tab+'-collected').textContent='수집일: '+m.collectedAt;
 }
 
 // ── CAT PILLS ──
-function buildCatPills() {
-  const el = document.getElementById('cat-pills');
-  el.innerHTML = CATS.map(c => {
-    const isAll = c.id === 'all';
-    return `<button class="cat-pill ${isAll ? 'active' : ''}"
-      style="color:${isAll ? '#fff' : 'rgba(240,240,245,0.38)'};border-color:${isAll ? 'rgba(255,255,255,0.28)' : 'rgba(255,255,255,0.08)'};"
-      onclick="setCat('${c.id}',this)">${c.label}</button>`;
+function buildCatPills(tab){
+  const el=document.getElementById(tab+'-cat-pills');
+  el.innerHTML=CATS.map(c=>{
+    const isAll=c.id==='all';
+    return `<button class="cat-pill ${isAll?'active':''}"
+      style="color:${isAll?'#fff':'rgba(238,238,245,0.35)'};border-color:${isAll?'rgba(255,255,255,0.25)':'rgba(255,255,255,0.07)'};"
+      onclick="setCat('${tab}','${c.id}',this)">${c.label}</button>`;
   }).join('');
 }
-function setCat(id, btn) {
-  state.cat = id;
-  document.querySelectorAll('.cat-pill').forEach(p => {
+function setCat(tab,id,btn){
+  if(tab==='trends')S.trendsCat=id;else S.archiveCat=id;
+  document.querySelectorAll(`#${tab}-cat-pills .cat-pill`).forEach(p=>{
     p.classList.remove('active');
-    p.style.color = 'rgba(240,240,245,0.38)';
-    p.style.borderColor = 'rgba(255,255,255,0.08)';
+    p.style.color='rgba(238,238,245,0.35)';
+    p.style.borderColor='rgba(255,255,255,0.07)';
   });
   btn.classList.add('active');
-  btn.style.color = '#fff';
-  btn.style.borderColor = id === 'all' ? 'rgba(255,255,255,0.28)' : catColor(id) + 'bb';
-  renderDashboard();
+  btn.style.color='#fff';
+  btn.style.borderColor=id==='all'?'rgba(255,255,255,0.25)':catColor(id)+'aa';
+  if(tab==='trends')renderTrends();else renderArchive();
 }
-function setRegion(r, btn) {
-  state.region = r;
-  document.querySelectorAll('.region-btn').forEach(b => b.classList.remove('active'));
+function setRegion(tab,r,btn){
+  if(tab==='trends')S.trendsRegion=r;else S.archiveRegion=r;
+  btn.closest('.region-toggle').querySelectorAll('.region-btn').forEach(b=>b.classList.remove('active'));
   btn.classList.add('active');
-  renderDashboard();
+  if(tab==='trends')renderTrends();else renderArchive();
 }
 
-// ── RENDER DASHBOARD ──
-function renderDashboard() {
-  if (!appData) return;
-  const wk = (appData.weeks||[]).find(w => w.weekKey === state.week);
-  const grid = document.getElementById('trend-grid');
-  if (!wk) {
-    grid.innerHTML = `<div class="empty-state"><div class="empty-icon">📭</div><div>데이터가 없어요</div></div>`;
-    document.getElementById('trend-count').textContent = '';
-    return;
-  }
-  let trends = wk.trends || [];
-  if (state.region !== 'ALL') trends = trends.filter(t => t.region === state.region);
-  if (state.cat !== 'all') trends = trends.filter(t => t.category === state.cat);
-  document.getElementById('trend-count').textContent = `총 ${trends.length}개`;
-  const bm = loadBM();
-  if (!trends.length) {
-    grid.innerHTML = `<div class="empty-state"><div class="empty-icon">🔍</div><div>해당 조건의 트렌드가 없어요</div></div>`;
-    return;
-  }
-  grid.innerHTML = trends.map((t, i) => renderCard(t, i, state.week, bm)).join('');
+// ── RENDER TRENDS ──
+function renderTrends(){
+  if(!D)return;
+  const m=(D.trends||[]).find(x=>x.monthKey===S.trendsMonth);
+  const grid=document.getElementById('trends-grid');
+  if(!m){grid.innerHTML='<div class="empty"><div class="empty-icon">📭</div>데이터가 없어요</div>';return}
+  let items=m.items||[];
+  if(S.trendsRegion!=='ALL')items=items.filter(t=>t.region===S.trendsRegion);
+  if(S.trendsCat!=='all')items=items.filter(t=>t.category===S.trendsCat);
+  document.getElementById('trends-count').textContent='총 '+items.length+'개';
+  document.getElementById('trends-subtitle').textContent=
+    m.monthLabel+' 게시 마케팅 트렌드 · 수집일 '+m.collectedAt;
+  const bm=loadBM();
+  grid.innerHTML=items.length
+    ?items.map((t,i)=>renderCard(t,i,'trends',m.monthKey,bm)).join('')
+    :'<div class="empty"><div class="empty-icon">🔍</div>해당 조건의 트렌드가 없어요</div>';
 }
 
-function renderCard(t, i, weekKey, bm) {
-  const color = catColor(t.category);
-  const label = catLabel(t.category);
-  const isOn = bm.some(b => b.id === t.id && b.weekKey === weekKey);
+// ── RENDER ARCHIVE ──
+function renderArchive(){
+  if(!D)return;
+  const m=(D.archive||[]).find(x=>x.monthKey===S.archiveMonth);
+  const grid=document.getElementById('archive-grid');
+  if(!m){grid.innerHTML='<div class="empty"><div class="empty-icon">📭</div>데이터가 없어요</div>';return}
+  let items=m.items||[];
+  if(S.archiveRegion!=='ALL')items=items.filter(t=>t.region===S.archiveRegion);
+  if(S.archiveCat!=='all')items=items.filter(t=>t.category===S.archiveCat);
+  document.getElementById('archive-count').textContent='총 '+items.length+'개';
+  document.getElementById('archive-subtitle').textContent=
+    '수집 기준: '+m.monthLabel+' · 원문 게시일은 각 카드에서 확인하세요';
+  const bm=loadBM();
+  grid.innerHTML=items.length
+    ?items.map((t,i)=>renderCard(t,i,'archive',m.monthKey,bm)).join('')
+    :'<div class="empty"><div class="empty-icon">🔍</div>해당 조건의 아카이브가 없어요</div>';
+}
+
+// ── RENDER CARD ──
+function renderCard(t,i,tab,monthKey,bm){
+  const color=catColor(t.category);
+  const label=catLabel(t.category);
+  const isOn=bm.some(b=>b.id===t.id&&b.tab===tab&&b.monthKey===monthKey);
+  const isArchive=tab==='archive';
   return `
-  <div class="trend-card" style="--cat-color:${color};animation-delay:${i*0.04}s">
+  <div class="card" style="--cat-color:${color};animation-delay:${i*0.04}s">
     <div class="card-top">
       <div class="card-badges">
-        <span class="badge badge-cat" style="color:${color};border-color:${color}30;background:${color}14;">${label}</span>
+        <span class="badge badge-cat" style="color:${color};border-color:${color}28;background:${color}12;">${label}</span>
         <span class="badge ${t.region==='KR'?'badge-kr':'badge-global'}">${t.region==='KR'?'🇰🇷 KR':'🌐 GLOBAL'}</span>
+        ${isArchive?'<span class="badge badge-pick">PICK</span>':''}
       </div>
-      <button class="bookmark-btn ${isOn?'on':''}" onclick="toggleBM('${t.id}','${weekKey}',this)" title="${isOn?'북마크 해제':'북마크 추가'}">${isOn?'★':'☆'}</button>
+      <button class="bm-btn ${isOn?'on':''}" onclick="toggleBM('${t.id}','${tab}','${monthKey}',this)" title="${isOn?'북마크 해제':'북마크 추가'}">${isOn?'★':'☆'}</button>
     </div>
+    <div class="card-date">📅 ${t.publishedAt} 게시</div>
     <div class="card-headline">${t.headline}</div>
     <div class="card-summary">${t.summary}</div>
     <div class="card-tip" style="border-left-color:${color}">
@@ -482,131 +587,172 @@ function renderCard(t, i, weekKey, bm) {
       <div class="tip-text">${t.tip}</div>
     </div>
     <div class="card-footer">
+      ${isArchive&&t.pickReason?`<div class="pick-reason">📌 ${t.pickReason}</div>`:''}
       <a class="source-link" href="${t.url}" target="_blank" rel="noopener">
-        <span>📎</span><span>${t.source}</span><span style="font-size:10px">↗</span>
+        <span>📎</span><span>${t.source}</span><span style="font-size:9px">↗</span>
       </a>
     </div>
   </div>`;
 }
 
 // ── BOOKMARK ──
-function toggleBM(id, weekKey, btn) {
-  if (!appData) return;
-  const wk = (appData.weeks||[]).find(w => w.weekKey === weekKey);
-  const trend = wk ? wk.trends.find(t => t.id === id) : null;
-  if (!trend) return;
-  let bm = loadBM();
-  const idx = bm.findIndex(b => b.id === id && b.weekKey === weekKey);
-  if (idx >= 0) {
-    bm.splice(idx, 1);
-    btn.textContent = '☆'; btn.classList.remove('on');
-  } else {
-    bm.push({ ...trend, weekKey, weekLabel: wk.weekLabel, dateRange: wk.dateRange });
-    btn.textContent = '★'; btn.classList.add('on');
+function toggleBM(id,tab,monthKey,btn){
+  if(!D)return;
+  const arr=tab==='trends'?D.trends:D.archive;
+  const m=(arr||[]).find(x=>x.monthKey===monthKey);
+  const item=m?(m.items||[]).find(t=>t.id===id):null;
+  if(!item)return;
+  let bm=loadBM();
+  const idx=bm.findIndex(b=>b.id===id&&b.tab===tab&&b.monthKey===monthKey);
+  if(idx>=0){
+    bm.splice(idx,1);
+    btn.textContent='☆';btn.classList.remove('on');
+  }else{
+    const mObj=(tab==='trends'?D.trends:D.archive)||[];
+    const mData=mObj.find(x=>x.monthKey===monthKey)||{};
+    bm.push({...item,tab,monthKey,monthLabel:mData.monthLabel||monthKey});
+    btn.textContent='★';btn.classList.add('on');
   }
   saveBM(bm);
-  if (state.page === 'bookmark') renderBookmarks();
+  if(S.page==='bookmark')renderBookmarks();
 }
 
-function renderBookmarks() {
-  const bm = loadBM();
-  const el = document.getElementById('bookmark-content');
-  if (!bm.length) {
-    el.innerHTML = `<div class="bm-empty"><div style="font-size:44px;opacity:0.25;margin-bottom:14px">★</div><div style="font-size:15px;margin-bottom:8px">북마크한 트렌드가 없어요</div><div style="font-size:13px;color:var(--text3)">트렌드 카드의 ☆ 버튼을 눌러 저장해 두세요</div></div>`;
+function renderBookmarks(){
+  const bm=loadBM();
+  const el=document.getElementById('bookmark-content');
+  if(!bm.length){
+    el.innerHTML='<div class="bm-empty"><div style="font-size:40px;opacity:0.22;margin-bottom:12px">★</div><div style="font-size:14px;margin-bottom:7px">북마크한 아티클이 없어요</div><div style="font-size:12px;color:var(--text3)">트렌드·아카이브 카드의 ☆ 버튼을 눌러 저장해 두세요</div></div>';
     return;
   }
-  const grouped = {};
-  bm.forEach(b => {
-    if (!grouped[b.weekKey]) grouped[b.weekKey] = { label: b.weekLabel, range: b.dateRange, items: [] };
-    grouped[b.weekKey].items.push(b);
-  });
-  el.innerHTML = Object.keys(grouped).sort().reverse().map(wk => {
-    const g = grouped[wk];
-    return `<div class="bm-week-group">
-      <div class="bm-week-label">${g.label} · ${g.range} · ${g.items.length}개</div>
-      <div class="trend-grid">${g.items.map((t,i) => {
-        const color = catColor(t.category);
-        const label = catLabel(t.category);
-        return `<div class="trend-card" style="--cat-color:${color};animation-delay:${i*0.04}s">
-          <div class="card-top">
-            <div class="card-badges">
-              <span class="badge badge-cat" style="color:${color};border-color:${color}30;background:${color}14;">${label}</span>
-              <span class="badge ${t.region==='KR'?'badge-kr':'badge-global'}">${t.region==='KR'?'🇰🇷 KR':'🌐 GLOBAL'}</span>
-            </div>
-            <button class="bookmark-btn on" onclick="removeBM('${t.id}','${wk}',this)" title="북마크 해제">★</button>
-          </div>
-          <div class="card-headline">${t.headline}</div>
-          <div class="card-summary">${t.summary}</div>
-          <div class="card-tip" style="border-left-color:${color}">
-            <span class="tip-icon">💡</span>
-            <div class="tip-text">${t.tip}</div>
-          </div>
-          <div class="card-footer">
-            <a class="source-link" href="${t.url}" target="_blank" rel="noopener">
-              <span>📎</span><span>${t.source}</span><span style="font-size:10px">↗</span>
-            </a>
-          </div>
+  // 탭별 그룹
+  const groups={trends:[],archive:[]};
+  bm.forEach(b=>{if(groups[b.tab])groups[b.tab].push(b)});
+  let html='';
+  const tabLabels={trends:'📈 트렌드',archive:'📚 아카이브'};
+  Object.entries(groups).forEach(([tab,items])=>{
+    if(!items.length)return;
+    // 월별 서브그룹
+    const byMonth={};
+    items.forEach(b=>{if(!byMonth[b.monthKey])byMonth[b.monthKey]={label:b.monthLabel,items:[]};byMonth[b.monthKey].items.push(b)});
+    html+=`<div class="bm-group">
+      <div class="bm-group-label">${tabLabels[tab]} — ${items.length}개</div>
+      ${Object.keys(byMonth).sort().reverse().map(mk=>{
+        const g=byMonth[mk];
+        return `<div style="margin-bottom:20px">
+          <div style="font-size:11px;color:var(--text3);margin-bottom:10px;font-weight:600">${g.label}</div>
+          <div class="card-grid">${g.items.map((t,i)=>{
+            const color=catColor(t.category);
+            const label=catLabel(t.category);
+            const isArchive=tab==='archive';
+            return `<div class="card" style="--cat-color:${color};animation-delay:${i*0.04}s">
+              <div class="card-top">
+                <div class="card-badges">
+                  <span class="badge badge-cat" style="color:${color};border-color:${color}28;background:${color}12;">${label}</span>
+                  <span class="badge ${t.region==='KR'?'badge-kr':'badge-global'}">${t.region==='KR'?'🇰🇷 KR':'🌐 GLOBAL'}</span>
+                  ${isArchive?'<span class="badge badge-pick">PICK</span>':''}
+                </div>
+                <button class="bm-btn on" onclick="removeBM('${t.id}','${tab}','${mk}',this)" title="북마크 해제">★</button>
+              </div>
+              <div class="card-date">📅 ${t.publishedAt} 게시</div>
+              <div class="card-headline">${t.headline}</div>
+              <div class="card-summary">${t.summary}</div>
+              <div class="card-tip" style="border-left-color:${color}">
+                <span class="tip-icon">💡</span>
+                <div class="tip-text">${t.tip}</div>
+              </div>
+              <div class="card-footer">
+                <a class="source-link" href="${t.url}" target="_blank" rel="noopener">
+                  <span>📎</span><span>${t.source}</span><span style="font-size:9px">↗</span>
+                </a>
+              </div>
+            </div>`;
+          }).join('')}</div>
         </div>`;
-      }).join('')}</div>
+      }).join('')}
     </div>`;
-  }).join('');
+  });
+  el.innerHTML=html||'<div class="bm-empty">북마크가 없어요</div>';
 }
 
-function removeBM(id, weekKey) {
-  let bm = loadBM();
-  bm = bm.filter(b => !(b.id === id && b.weekKey === weekKey));
+function removeBM(id,tab,monthKey){
+  let bm=loadBM();
+  bm=bm.filter(b=>!(b.id===id&&b.tab===tab&&b.monthKey===monthKey));
   saveBM(bm);
   renderBookmarks();
 }
 
 // ── QUARTERLY ──
-function buildQuarterSelect() {
-  const quarters = [...(appData.quarterly||[])].reverse();
-  const sel = document.getElementById('quarter-select');
-  sel.innerHTML = quarters.map(q =>
-    `<option value="${q.quarterKey}">${q.quarterLabel} (${q.period})</option>`
-  ).join('');
-  if (state.quarter) sel.value = state.quarter;
+function buildQuarterSelect(){
+  const quarters=[...(D.quarterly||[])].reverse();
+  const el=document.getElementById('q-select');
+  el.innerHTML=quarters.map(q=>`<option value="${q.quarterKey}">${q.quarterLabel} (${q.period})</option>`).join('');
+  if(S.quarter)el.value=S.quarter;
 }
 
-function renderQuarterly() {
-  if (!appData) return;
-  state.quarter = document.getElementById('quarter-select').value;
-  const q = (appData.quarterly||[]).find(q => q.quarterKey === state.quarter);
-  const el = document.getElementById('quarterly-content');
-  if (!q) {
-    el.innerHTML = `<div class="no-data">분기 테마 데이터가 없어요</div>`;
-    return;
-  }
-  const totalTrends = (q.weeksIncluded||[]).reduce((acc, wk) => {
-    const w = (appData.weeks||[]).find(w => w.weekKey === wk);
-    return acc + (w ? (w.trends||[]).length : 0);
-  }, 0);
-  el.innerHTML = `
+function renderQuarterly(){
+  if(!D)return;
+  S.quarter=document.getElementById('q-select').value;
+  const q=(D.quarterly||[]).find(x=>x.quarterKey===S.quarter);
+  const el=document.getElementById('quarterly-content');
+  if(!q){el.innerHTML='<div class="empty"><div class="empty-icon">📭</div>분기 테마 데이터가 없어요</div>';return}
+
+  const totalItems=(q.monthsIncluded||[]).reduce((acc,mk)=>{
+    const tm=(D.trends||[]).find(x=>x.monthKey===mk);
+    const am=(D.archive||[]).find(x=>x.monthKey===mk);
+    return acc+((tm?tm.items.length:0)+(am?am.items.length:0));
+  },0);
+
+  el.innerHTML=`
     <div class="q-meta">
-      <div class="q-meta-item"><div class="q-meta-label">분기 기간</div><div class="q-meta-value">${q.period}</div></div>
-      <div class="q-meta-item"><div class="q-meta-label">수집 주차</div><div class="q-meta-value">${(q.weeksIncluded||[]).length}주차 누적</div></div>
-      <div class="q-meta-item"><div class="q-meta-label">분석 트렌드</div><div class="q-meta-value">총 ${totalTrends}개</div></div>
-      <div class="q-meta-item"><div class="q-meta-label">최종 업데이트</div><div class="q-meta-value">${q.generatedAt}</div></div>
+      <div class="q-meta-item"><div class="q-meta-label">기간</div><div class="q-meta-value">${q.period}</div></div>
+      <div class="q-meta-item"><div class="q-meta-label">수집 월</div><div class="q-meta-value">${(q.monthsIncluded||[]).length}개월 누적</div></div>
+      <div class="q-meta-item"><div class="q-meta-label">분석 아티클</div><div class="q-meta-value">총 ${totalItems}개</div></div>
+      <div class="q-meta-item"><div class="q-meta-label">업데이트</div><div class="q-meta-value">${q.generatedAt}</div></div>
     </div>
-    <div class="q-section-title">분기 대표 테마 후보</div>
+    <div class="q-section-title">분기 대표 테마 후보 — 클릭해서 자세히 보기</div>
     <div class="theme-grid">
-      ${(q.themes||[]).map(t => `
-        <div class="theme-card">
+      ${(q.themes||[]).map(t=>`
+        <div class="theme-card" onclick="openModal(${JSON.stringify(t).replace(/"/g,'&quot;')})">
           <div class="theme-rank">0${t.rank}</div>
           <div class="theme-title">${t.title}</div>
           <div class="theme-desc">${t.desc}</div>
           <div class="theme-kws">${t.keywords.map(k=>`<span class="theme-kw">${k}</span>`).join('')}</div>
+          <div class="theme-link-count">🔗 관련 아티클 ${(t.relatedLinks||[]).length}개 · 클릭해서 확인</div>
         </div>`).join('')}
     </div>`;
 }
 
-// ── SERVICE WORKER 등록 ──
-if ('serviceWorker' in navigator) {
-  window.addEventListener('load', () => {
-    navigator.serviceWorker.register('/sw.js')
-      .catch(e => console.log('SW 등록 실패:', e));
-  });
+// ── MODAL ──
+function openModal(theme){
+  document.getElementById('modal-rank').textContent='THEME 0'+theme.rank;
+  document.getElementById('modal-title').textContent=theme.title;
+  document.getElementById('modal-desc').textContent=theme.desc;
+  document.getElementById('modal-editor-text').textContent=theme.editorNote||'';
+  document.getElementById('modal-kws').innerHTML=(theme.keywords||[]).map(k=>`<span class="theme-kw">${k}</span>`).join('');
+  document.getElementById('modal-links').innerHTML=(theme.relatedLinks||[]).map(l=>`
+    <a class="modal-link-item" href="${l.url}" target="_blank" rel="noopener">
+      <div style="display:flex;align-items:flex-start;gap:8px">
+        <div class="modal-link-title" style="flex:1">${l.title}</div>
+        <div class="modal-link-arrow">↗</div>
+      </div>
+      <div class="modal-link-meta">
+        <span>📅 ${l.publishedAt}</span>
+        <span>·</span>
+        <span>${l.source}</span>
+      </div>
+    </a>`).join('');
+  document.getElementById('theme-modal').classList.add('open');
+  document.body.style.overflow='hidden';
+}
+function closeModal(e){if(e.target===document.getElementById('theme-modal'))closeModalDirect()}
+function closeModalDirect(){
+  document.getElementById('theme-modal').classList.remove('open');
+  document.body.style.overflow='';
+}
+
+// ── SW ──
+if('serviceWorker' in navigator){
+  window.addEventListener('load',()=>navigator.serviceWorker.register('/sw.js').catch(()=>{}));
 }
 
 // ── START ──
